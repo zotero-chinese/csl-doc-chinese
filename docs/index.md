@@ -25,4 +25,4 @@ Zotero 文件管理软件开源且简单。CSL 的发展与 Zotero 有一定的�
 > 
 > 中文文档重排版：[Northword](https://github.com/northword)
 > 
-> 中文文档重排版仓库：[zotero-cn/csl-chinese: CSL 中文文档 (github.com)](https://github.com/zotero-cn/csl-chinese)
+> 中文文档重排版仓库：[zotero-cn/csl-chinese: CSL 中文文档 (github.com)](https://github.com/zotero-cn/csl-doc-chinese)
