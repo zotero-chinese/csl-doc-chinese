@@ -19,5 +19,6 @@
   "showUnsupportedFiles": true,
   "newFileLocation": "current",
   "spellcheck": true,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "useTab": true
 }
