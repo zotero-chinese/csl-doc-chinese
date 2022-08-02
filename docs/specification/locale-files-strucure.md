@@ -1,10 +1,12 @@
 ---
 title: Locale Files (本地化文件)
 date: 2022-08-01 16:55:26
-updated: 2022-08-02 15:32:42
+updated: 2022-08-02 21:06:46
 ---
 
 # Locale Files (本地化文件)
+
+> Working in progress
 
 尽管本地化数据可以包括在 csl 文件中 (见 [Locale](#Locale))，但是本地化文件可以方便的提供本地化数据的设置，包括术语，日期格式以及语法选项。
 

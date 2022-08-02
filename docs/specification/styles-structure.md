@@ -6,6 +6,8 @@ updated: 2022-08-02 20:48:15
 
 # 样式结构
 
+> Working in progress
+
 ## 根元素 `cs:style`
 
 样式的根元素是 `cs:style`。在独立格式中，根元素有以下几种属性：
