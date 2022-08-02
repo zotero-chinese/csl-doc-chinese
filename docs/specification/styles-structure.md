@@ -1,32 +1,47 @@
 ---
 title: 样式结构
 date: 2022-08-01 16:55:26
-updated: 2022-08-02 15:25:12
+updated: 2022-08-02 20:48:15
 ---
 
 # 样式结构
 
 ## 根元素 `cs:style`
 
-样式的根元素是 `cs:style`。在独立格式中，根元素携带以下几种属性：
+样式的根元素是 `cs:style`。在独立格式中，根元素有以下几种属性：
 
 `class`
 
-​ 决定样式的引文类型是 in-text (值是 `"in-text"`) 或者 note (值是 `"note"`) 。in-text 表示引文在文字中，note 表示引文不在文字中，可能是脚注等等。
+:    🏳️ Default: _none_  — 	 决定样式的 [引文格式](../primer/citation-formats.md) 是 in-text 类型（值 `in-text`） 或者 note 类型（值 `note`）。
+
+	!!! NOTE "译者注"
+		in-text 表示引文在文字中，note 表示引文不在文字中，可能是脚注等。
 
 `default-locale` (可选)
 
-​ 为本地化设值默认的 locale。值必须是 [locale code](http://books.xmlschemata.org/relaxng/ch19-77191.html)。
+:    🏳️ Default: _none_  —  为本地化设值默认的 locale。值必须是 [locale code](http://books.xmlschemata.org/relaxng/ch19-77191.html)。
+
+	!!! TIP "译者注：常用 local_code"
+
+		zh-CN：中文（中国）
+
+		zh-hk：中文（台湾）
+
+		zh：中文
+
+		en-US：
+
+		可以参阅 [Language Strings | Microsoft Docs](https://docs.microsoft.com/zh-cn/windows/win32/wmformat/language-strings)
 
 `version`
 
-​ 样式的 CSL 版本。对于 CSL 1.0 兼容样式，必须是 `"1.0"`。
+:    🏳️ Default: _none_ ·  ⚠ 必须的 — 	样式的 CSL 版本。对于 CSL 1.0 兼容样式，必须是 `1.0`。
 
-此外，`cs:style` 可能携带任意的 [全局选项](#全局选项) 和 [可继承名称选项](#可继承的名称选项)。
+此外，`cs:style` 可能携带任意的 [全局选项](style-behavior.md#全局选项) 和 [可继承的名称选项](style-behavior.md#可继承的名称选项) 。
 
 在这些属性中，从属格式中，只有 `version` 是必须的， `default-locale` 属性可以设置用来代替的默认的本地化文件 。其他的属性是可以忽略的。
 
-下面是一个独立样式的 `cs:style` 示例，最前面是 XML 声明：
+下面是一个独立样式的 `cs:style` 示例，第一行是 XML 声明：
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -39,7 +54,7 @@ updated: 2022-08-02 15:25:12
 
 `cs:info`
 
-​ `info` 元素必须是 `cs:style` 的第一个子元素。其中包括了用来描述样式的元数据 (style name, ID, authors，也就是样式名称、样式 ID 以及样式的作者)。
+: 🏳️ Default: _none_  — 	`info` 元素必须是 `cs:style` 的第一个子元素。其中包括了用来描述样式的元数据 (style name, ID, authors，也就是样式名称、样式 ID 以及样式的作者)。
 
 `cs:citation`
 
