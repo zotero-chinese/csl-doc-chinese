@@ -10,14 +10,14 @@
       
       
       
-        <link rel="canonical" href="https://csl-cn.github.io/csl-chinese/specification/file-types/">
+        <link rel="canonical" href="https://csl-cn.github.io/csl-chinese/specification/namespacing/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.3.9">
     
     
       
-        <title>文件类型 - CSL 中文文档</title>
+        <title>命名空间 - CSL 中文文档</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#文件类型" class="md-skip">
+        <a href="#命名空间" class="md-skip">
           跳转至
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              文件类型
+              命名空间
             
           </span>
         </div>
@@ -430,11 +430,21 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../namespacing/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         命名空间
       </a>
+      
     </li>
   
 
@@ -458,66 +468,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          文件类型
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../file-types/" class="md-nav__link">
         文件类型
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#独立样式" class="md-nav__link">
-    独立样式
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#从属样式" class="md-nav__link">
-    从属样式
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#本地化文件" class="md-nav__link">
-    本地化文件
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -733,35 +688,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#独立样式" class="md-nav__link">
-    独立样式
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#从属样式" class="md-nav__link">
-    从属样式
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#本地化文件" class="md-nav__link">
-    本地化文件
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -772,36 +698,25 @@
             <article class="md-content__inner md-typeset">
               
                 
-  <a href="https://github.com/zotero-cn/csl-doc-chinese/edit/master/docs/specification/file-types.md" title="编辑此页" class="md-content__button md-icon">
+  <a href="https://github.com/zotero-cn/csl-doc-chinese/edit/master/docs/specification/namespacing.md" title="编辑此页" class="md-content__button md-icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
 
-<h1 id="文件类型">文件类型<a class="headerlink" href="#文件类型" title="Permanent link">&para;</a></h1>
-<p>CSL 文件有 3 种类型：独立样式、从属样式（都使用 <code>.csl</code> 作为扩展名），以及 本地化文件（名字为 <code>locales-xx-XX.xml</code>，其中 <code>xx-XX</code> 表示语言以及其方言，例如 <code>en-US</code> 表示美式英语）。</p>
-<h2 id="独立样式">独立样式<a class="headerlink" href="#独立样式" title="Permanent link">&para;</a></h2>
-<p>独立样式包含了对引文，笔记以及参考书目的描述。虽然它们大多数都是自成一体的（即不依赖其他样式），但是（默认）依赖于本地化文件。</p>
-<h2 id="从属样式">从属样式<a class="headerlink" href="#从属样式" title="Permanent link">&para;</a></h2>
-<p>从属样式是独立样式的别名（alias），其仅包含样式元数据，不包括任何格式的指示。</p>
-<p>通过将具有相同引用风格的期刊（例如 &ldquo;Nature Biotechnology&rdquo;，&rdquo;Nature Nanotechnology&rdquo;）的从属样式链接到一个单独的独立样式（例如 &ldquo;Nature Journals&rdquo;），从属样式就不再需要再重复一遍格式说明。</p>
-<div class="admonition note">
-<p class="admonition-title">译者注</p>
-<p>也就是说从属样式是依赖其他样式的，被依赖的样式成为称为<strong>父样式</strong>。</p>
-</div>
-<h2 id="本地化文件">本地化文件<a class="headerlink" href="#本地化文件" title="Permanent link">&para;</a></h2>
-<p>每个本地化文件包含一系列对某种特定的语言 / 方言的本地化数据（术语翻译，本地化日期格式以及语法选项）。</p>
-<div class="admonition note">
-<p class="admonition-title">译者注</p>
-<p>本地化文件主要用于在不同的语言环境中使用样式，比如在中文环境中使用，中文对应的本地化文件可以将英文中的 <code>et al.</code> 替换为 <code>等.</code></p>
-</div>
+<h1 id="命名空间">命名空间<a class="headerlink" href="#命名空间" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p>namespacing</p>
+</blockquote>
+<p>CSL XML 命名空间 URI 是 <a href="http://purl.org/net/xbiblio/csl">http://purl.org/net/xbiblio/csl</a>。</p>
+<p>在本规范中，当提及 CSL 元素时，命名空间前缀为 <code>cs:</code> ，但对于根元素 <code>cs:style</code> 或 <code>cs:locale</code> 的默认命名空间声明（用 <code>xmlns</code> 属性设置），通常省略 <code>cs:</code>。</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       最后更新:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2022-08-02 20:52:14</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2022-08-02 21:05:25</span>
       
     
   </small>
@@ -826,7 +741,7 @@
     <nav class="md-footer__inner md-grid" aria-label="页脚" >
       
         
-        <a href="../whitespace-handling/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 空格处理" rel="prev">
+        <a href="../" class="md-footer__link md-footer__link--prev" aria-label="上一页: CSL 1.0.2 规范" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -835,20 +750,20 @@
               <span class="md-footer__direction">
                 上一页
               </span>
-              空格处理
+              CSL 1.0.2 规范
             </div>
           </div>
         </a>
       
       
         
-        <a href="../xml-declaration/" class="md-footer__link md-footer__link--next" aria-label="下一页: XML 声明" rel="next">
+        <a href="../whitespace-handling/" class="md-footer__link md-footer__link--next" aria-label="下一页: 空格处理" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 下一页
               </span>
-              XML 声明
+              空格处理
             </div>
           </div>
           <div class="md-footer__button md-icon">

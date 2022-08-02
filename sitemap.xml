@@ -86,6 +86,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://csl-cn.github.io/csl-chinese/specification/namespacing/</loc>
+         <lastmod>2022-08-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://csl-cn.github.io/csl-chinese/specification/rendering-elements/</loc>
          <lastmod>2022-08-02</lastmod>
          <changefreq>daily</changefreq>
