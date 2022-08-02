@@ -10,7 +10,6 @@ theme:
     # logo: assets/logo/favicons.png
     icon:
       repo: fontawesome/brands/github
-    # custom_dir: material
     # custom_dir: overrides
     font:
         text: Karla
@@ -37,11 +36,12 @@ theme:
     features:
         - navigation.indexes
         - navigation.top
-        - navigation.tabs
-        - navigation.tabs.sticky
+        # - navigation.tabs
+        # - navigation.tabs.sticky
         # - navigation.sections
         - navigation.instant
         # - navigation.expand
+        # - toc.integrate
 # Extensions
 markdown_extensions:
   - footnotes
@@ -85,8 +85,8 @@ markdown_extensions:
           format: !!python/name:mermaid2.fence_mermaid
 plugins:
   - search
-  # - ezlinks: # https://github.com/orbikm/mkdocs-ezlinks-plugin
-        # wikilinks: true
+  - ezlinks: # https://github.com/orbikm/mkdocs-ezlinks-plugin
+        wikilinks: true
   # - mermaid2
   - awesome-pages:
       # collapse_single_pages: true
@@ -118,7 +118,7 @@ extra:
       link: https://github.com/ZMAlt/CSL-Chinese
     - icon: fontawesome/brands/github
       link: https://github.com/zotero-cn/csl-doc-chinese
-copyright: Copyright &copy; 2022 Mao Zhou 
+copyright: Copyright &copy; 2022 Zotero CN 
 
 
 
