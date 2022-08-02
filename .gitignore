@@ -18,4 +18,4 @@ docs/vuepress-back
 # docs/**/.pages
 
 # Obsidian
-.obsidian/wordspace
+.obsidian/workspace
