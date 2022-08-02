@@ -833,6 +833,9 @@
 
 
 <h1 id="locale-files-本地化文件">Locale Files (本地化文件)<a class="headerlink" href="#locale-files-本地化文件" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p>Working in progress</p>
+</blockquote>
 <p>尽管本地化数据可以包括在 csl 文件中 (见 <a href="./#Locale">Locale</a>)，但是本地化文件可以方便的提供本地化数据的设置，包括术语，日期格式以及语法选项。</p>
 <p>每个本地化文件包括了一种语言方言的本地化数据。本地化文件中根元素为 <code>cs:locale</code>（样式/style 中则为 <code>cs:style</code> 元素）。在 <code>cs:locale</code> 根元素中，属性 <code>xml:lang</code> 用来设置方言。同时这一设置选项也用来对本地化文件命名（<code>"xx-XX"</code> 文件名为 <code>locales-xx-XX.xml</code>）。此外，根元素必须携带 <code>version</code> 属性，表明本地化文件的 CSL 版本（对 CSL 1.0 兼容的 locale file 必须设置为 <code>"1.0"</code>）。本地化文件有和样式同样的命名空间。<code>cs:locale</code> 元素可能包含 <code>cs:info</code> 作为第一个子元素，同时，必须含有 <code>cs:terms</code>、<code>cs:date</code>、<code>cs:style-options</code> 子元素。下面是一个 本地化文件的部分示例：</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><a href="#__codelineno-0-1"><span class="linenos" data-linenos=" 1 "></span></a><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span>
@@ -932,7 +935,7 @@
   <small>
     
       最后更新:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2022-08-02 15:48:46</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2022-08-02 21:10:43</span>
       
     
   </small>
