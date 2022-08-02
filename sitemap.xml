@@ -2,112 +2,112 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://csl-cn.github.io/csl-chinese/</loc>
-         <lastmod>2022-08-01</lastmod>
+         <lastmod>2022-08-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://csl-cn.github.io/csl-chinese/translating-locale-files/</loc>
+         <lastmod>2022-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://csl-cn.github.io/csl-chinese/xml-basic/</loc>
-         <lastmod>2022-08-01</lastmod>
+         <lastmod>2022-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://csl-cn.github.io/csl-chinese/csl-intro/</loc>
-         <lastmod>2022-08-01</lastmod>
+         <loc>https://csl-cn.github.io/csl-chinese/primer/</loc>
+         <lastmod>2022-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://csl-cn.github.io/csl-chinese/csl-intro/01-%E5%BC%95%E7%94%A8%E6%A0%BC%E5%BC%8F/</loc>
-         <lastmod>2022-08-01</lastmod>
+         <loc>https://csl-cn.github.io/csl-chinese/primer/citation-formats/</loc>
+         <lastmod>2022-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://csl-cn.github.io/csl-chinese/csl-intro/02-CSL%20%E7%94%9F%E6%80%81/</loc>
-         <lastmod>2022-08-01</lastmod>
+         <loc>https://csl-cn.github.io/csl-chinese/primer/end/</loc>
+         <lastmod>2022-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://csl-cn.github.io/csl-chinese/csl-intro/03-%E7%90%86%E8%A7%A3%20CSL%20%E6%A0%BC%E5%BC%8F/</loc>
-         <lastmod>2022-08-01</lastmod>
+         <loc>https://csl-cn.github.io/csl-chinese/primer/the-csl-ecosystem/</loc>
+         <lastmod>2022-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://csl-cn.github.io/csl-chinese/csl-intro/04-%E6%9B%B4%E8%BF%9B%E4%B8%80%E6%AD%A5/</loc>
-         <lastmod>2022-08-01</lastmod>
+         <loc>https://csl-cn.github.io/csl-chinese/primer/understanding%20csl%20styles/</loc>
+         <lastmod>2022-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://csl-cn.github.io/csl-chinese/specification/</loc>
-         <lastmod>2022-08-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://csl-cn.github.io/csl-chinese/specification/03-whitespace%20handling/</loc>
-         <lastmod>2022-08-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://csl-cn.github.io/csl-chinese/specification/04-file-types/</loc>
-         <lastmod>2022-08-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://csl-cn.github.io/csl-chinese/specification/05-xml-declaration/</loc>
-         <lastmod>2022-08-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://csl-cn.github.io/csl-chinese/specification/06-styles-structure/</loc>
-         <lastmod>2022-08-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://csl-cn.github.io/csl-chinese/specification/07-locale-files-strucure/</loc>
-         <lastmod>2022-08-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://csl-cn.github.io/csl-chinese/specification/08-rendering-elements/</loc>
-         <lastmod>2022-08-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://csl-cn.github.io/csl-chinese/specification/09-style-behavior/</loc>
-         <lastmod>2022-08-01</lastmod>
+         <lastmod>2022-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://csl-cn.github.io/csl-chinese/specification/appendix1-categories/</loc>
-         <lastmod>2022-08-01</lastmod>
+         <lastmod>2022-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://csl-cn.github.io/csl-chinese/specification/appendix2-terms/</loc>
-         <lastmod>2022-08-01</lastmod>
+         <lastmod>2022-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://csl-cn.github.io/csl-chinese/specification/appendix3-types/</loc>
-         <lastmod>2022-08-01</lastmod>
+         <lastmod>2022-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://csl-cn.github.io/csl-chinese/specification/appendix4-variables/</loc>
-         <lastmod>2022-08-01</lastmod>
+         <lastmod>2022-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://csl-cn.github.io/csl-chinese/specification/appendix5-page-range-formats/</loc>
-         <lastmod>2022-08-01</lastmod>
+         <lastmod>2022-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://csl-cn.github.io/csl-chinese/specification/appendix6-links/</loc>
-         <lastmod>2022-08-01</lastmod>
+         <lastmod>2022-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://csl-cn.github.io/csl-chinese/translating-csl-locale-files/locale-file/</loc>
-         <lastmod>2022-08-01</lastmod>
+         <loc>https://csl-cn.github.io/csl-chinese/specification/file-types/</loc>
+         <lastmod>2022-08-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://csl-cn.github.io/csl-chinese/specification/locale-files-strucure/</loc>
+         <lastmod>2022-08-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://csl-cn.github.io/csl-chinese/specification/rendering-elements/</loc>
+         <lastmod>2022-08-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://csl-cn.github.io/csl-chinese/specification/style-behavior/</loc>
+         <lastmod>2022-08-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://csl-cn.github.io/csl-chinese/specification/styles-structure/</loc>
+         <lastmod>2022-08-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://csl-cn.github.io/csl-chinese/specification/whitespace-handling/</loc>
+         <lastmod>2022-08-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://csl-cn.github.io/csl-chinese/specification/xml-declaration/</loc>
+         <lastmod>2022-08-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
