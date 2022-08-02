@@ -17,7 +17,7 @@
     
     
       
-        <title>CSL 1.0.1 规范 - CSL 中文文档</title>
+        <title>CSL 1.0.2 规范 - CSL 中文文档</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#csl-101-规范" class="md-skip">
+        <a href="#csl-102-规范" class="md-skip">
           跳转至
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CSL 1.0.1 规范
+              CSL 1.0.2 规范
             
           </span>
         </div>
@@ -299,7 +299,7 @@
   
     <li class="md-nav__item">
       <a href="../primer/citation-formats/" class="md-nav__link">
-        引用格式
+        引文格式
       </a>
     </li>
   
@@ -431,7 +431,7 @@
   
     <li class="md-nav__item">
       <a href="whitespace-handling/" class="md-nav__link">
-        Whitespace Handling
+        空格处理 Whitespace Handling
       </a>
     </li>
   
@@ -676,6 +676,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#翻译习惯" class="md-nav__link">
+    翻译习惯
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#术语" class="md-nav__link">
     术语
   </a>
@@ -683,15 +690,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#命名习惯" class="md-nav__link">
-    命名习惯
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#翻译习惯" class="md-nav__link">
-    翻译习惯
+  <a href="#命名空间" class="md-nav__link">
+    命名空间
   </a>
   
 </li>
@@ -714,44 +714,82 @@
 
 
 
-<h1 id="csl-101-规范">CSL 1.0.1 规范<a class="headerlink" href="#csl-101-规范" title="Permanent link">&para;</a></h1>
+<h1 id="csl-102-规范">CSL 1.0.2 规范<a class="headerlink" href="#csl-102-规范" title="Permanent link">&para;</a></h1>
+<p>Principal Authors <a href="https://twitter.com/rintzezelle">Rintze M. Zelle， PhD</a>， <a href="https://twitter.com/bmwiernik">Brenton M. Wiernik</a>， Frank G. Bennett， Jr.， Bruce D’Arcus， Denis Maier</p>
+<p>with additional contributions from Julien Gonzalez， Sebastian Karcher， Sylvester Keil， Cormac Relf， Lars Willighagen， and other CSL contributors.</p>
+<p>译者：<a href="https://github.com/ZMAlt">Mao Zhou</a>、<a href="https://github.com/northword">Northword</a></p>
+<p>此工作以 <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> 授权。</p>
 <h2 id="介绍">介绍<a class="headerlink" href="#介绍" title="Permanent link">&para;</a></h2>
-<p>CSL 是一种基于 XML 的格式，用来描述引用的格式，注释和参考文献，提供了</p>
+<p>CSL（Citation Style Language，引文样式语言） 是一种基于 XML 的格式，用来描述引文、注释和参考文献的格式，他提供了：</p>
 <ul>
-<li>
-<p>一种开放的 (开源的) 格式</p>
-</li>
-<li>
-<p>紧凑并且稳定的格式</p>
-</li>
-<li>
-<p>对格式要求的外部支持</p>
-</li>
-<li>
-<p>对格式的发布和更新的基本支持</p>
-</li>
-<li>
-<p>数千种免费提供 的样式</p>
-</li>
+<li>一种开放的 (开源的) 格式</li>
+<li>紧凑、稳定的样式</li>
+<li>对样式要求的广泛支持</li>
+<li>样式自动本地化</li>
+<li>对样式发布和更新的基本支持</li>
+<li>数千种免费提供的样式（CC BY-SA 授权）</li>
 </ul>
-<p>有关的其他文档，CSL 介绍，样式和本地化文件详见 <a href="https://citationstyles.org/">CSL 项目主页</a></p>
-<h2 id="术语">术语<a class="headerlink" href="#术语" title="Permanent link">&para;</a></h2>
-<p>关键字 <code>MUST,MUST NOT,REQUIRED,SHALL,SHALL NOT,SHOULD,SHOULD NOT,RECOMMENDED,MAY 和 OPTIONAL</code> 将按 <a href="http://tools.ietf.org/html/rfc2119">IETF RFC 2119</a> 中的描述解释。</p>
-<h2 id="命名习惯">命名习惯<a class="headerlink" href="#命名习惯" title="Permanent link">&para;</a></h2>
-<p>在引用 CSL 元素时，将在前面使用 <code>cs:</code>。</p>
+<p>有关的其他文档，CSL 议程，样式和本地化文件详见 <a href="https://citationstyles.org/">CSL 项目主页</a></p>
 <h2 id="翻译习惯">翻译习惯<a class="headerlink" href="#翻译习惯" title="Permanent link">&para;</a></h2>
-<p>这里将列出一些常用的术语的翻译，但只是本人自己的理解，并不能保证翻译的准确性。后文的描述中可能会使用英文或者中文翻译。</p>
-<p>locale files/locale 本地化文件</p>
-<p>styles 样式/格式</p>
-<p>citation 引文</p>
-<p>macro 宏</p>
+<p>这里将列出一些常用的术语的译文，并不能保证翻译的准确性。为保持准确性，后文的描述中可能会在译文旁标注原文。</p>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>译文</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>locale files/locale</td>
+<td>本地化文件</td>
+<td>区域文件</td>
+</tr>
+<tr>
+<td>styles</td>
+<td>样式</td>
+<td></td>
+</tr>
+<tr>
+<td>citation</td>
+<td>引文</td>
+<td></td>
+</tr>
+<tr>
+<td>macro</td>
+<td>宏</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="术语">术语<a class="headerlink" href="#术语" title="Permanent link">&para;</a></h2>
+<p>关键字 MUST，MUST NOT，REQUIRED，SHALL，SHALL NOT，SHOULD，SHOULD NOT，RECOMMENDED，MAY 和 OPTIONAL 按 <a href="http://tools.ietf.org/html/rfc2119">IETF RFC 2119</a> 中的描述解释。</p>
+<div class="admonition note">
+<p class="admonition-title">译者注：关于 IETF RFC 2119 协议</p>
+<p>RFC ，即 <strong>R</strong>equest <strong>f</strong>or <strong>C</strong>omments，意见征求稿，是由 <a href="http://www.ietf.org/">The Internet Engineering Task Force</a> 制作的文档，其中许多是各种 Internet 协议的官方标准。</p>
+<p>协议全文：<a href="https://www.ietf.org/rfc/rfc2119.txt">https://www.ietf.org/rfc/rfc2119.txt</a></p>
+<p><strong>MUST</strong>：必须的。通过它描述的对象，是强制要求的。它与 REQUIRED 和 SHALL 含义相同。</p>
+<p><strong>MUST NOT</strong>：不允许的。通过它描述的对象也是强制的。与 SHALL NOT 同义。</p>
+<p><strong>SHOULD</strong>：在通常情况下，应当这样。但是，特殊情况下除外。与 RECOMMENDED 同义。</p>
+<p><strong>SHOULD NOT</strong>：在通常情况下，不是这样。但是，特殊情况下除外。与 NOT RECOMMENDED 同义。</p>
+<p><strong>MAY</strong>：可选的描述对象。与 OPTIONAL 同义。</p>
+</div>
+<h2 id="命名空间">命名空间<a class="headerlink" href="#命名空间" title="Permanent link">&para;</a></h2>
+<p>在引用 CSL 元素时，将在前面使用 <code>cs:</code>。</p>
+<p>CSL XML 命名空间 URI 是 <a href="http://purl.org/net/xbiblio/csl">http://purl.org/net/xbiblio/csl</a>。在本规范中，当提及 CSL 元素时，命名空间前缀为 <code>cs:</code> ，但对于根元素 <code>cs:style</code> 或 <code>cs:locale</code> 的默认命名空间声明（用 <code>xmlns</code> 属性设置），通常省略 <code>cs:</code>。</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       最后更新:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2022-08-02 15:48:46</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2022-08-02 20:52:14</span>
       
     
   </small>
@@ -792,13 +830,13 @@
       
       
         
-        <a href="whitespace-handling/" class="md-footer__link md-footer__link--next" aria-label="下一页: Whitespace Handling" rel="next">
+        <a href="whitespace-handling/" class="md-footer__link md-footer__link--next" aria-label="下一页: 空格处理 Whitespace Handling" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 下一页
               </span>
-              Whitespace Handling
+              空格处理 Whitespace Handling
             </div>
           </div>
           <div class="md-footer__button md-icon">

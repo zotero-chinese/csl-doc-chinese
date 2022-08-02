@@ -299,7 +299,7 @@
   
     <li class="md-nav__item">
       <a href="../../primer/citation-formats/" class="md-nav__link">
-        引用格式
+        引文格式
       </a>
     </li>
   
@@ -431,7 +431,7 @@
   
     <li class="md-nav__item">
       <a href="../whitespace-handling/" class="md-nav__link">
-        Whitespace Handling
+        空格处理 Whitespace Handling
       </a>
     </li>
   
@@ -832,23 +832,47 @@
 
 <h1 id="样式结构">样式结构<a class="headerlink" href="#样式结构" title="Permanent link">&para;</a></h1>
 <h2 id="根元素-csstyle">根元素 <code>cs:style</code><a class="headerlink" href="#根元素-csstyle" title="Permanent link">&para;</a></h2>
-<p>样式的根元素是 <code>cs:style</code>。在独立格式中，根元素携带以下几种属性：</p>
-<p><code>class</code></p>
-<p>​ 决定样式的引文类型是 in-text (值是 <code>"in-text"</code>) 或者 note (值是 <code>"note"</code>) 。in-text 表示引文在文字中，note 表示引文不在文字中，可能是脚注等等。</p>
-<p><code>default-locale</code> (可选)</p>
-<p>​ 为本地化设值默认的 locale。值必须是 <a href="http://books.xmlschemata.org/relaxng/ch19-77191.html">locale code</a>。</p>
-<p><code>version</code></p>
-<p>​ 样式的 CSL 版本。对于 CSL 1.0 兼容样式，必须是 <code>"1.0"</code>。</p>
-<p>此外，<code>cs:style</code> 可能携带任意的 <a href="./#全局选项">全局选项</a> 和 <a href="./#可继承的名称选项">可继承名称选项</a>。</p>
+<p>样式的根元素是 <code>cs:style</code>。在独立格式中，根元素有以下几种属性：</p>
+<dl>
+<dt><code>class</code></dt>
+<dd>
+<p>🏳️ Default: <em>none</em>  —   决定样式的 <a href="../../primer/citation-formats/">引文格式</a> 是 in-text 类型（值 <code>in-text</code>） 或者 note 类型（值 <code>note</code>）。</p>
+<div class="admonition note">
+<p class="admonition-title">译者注</p>
+<p>in-text 表示引文在文字中，note 表示引文不在文字中，可能是脚注等。</p>
+</div>
+</dd>
+<dt><code>default-locale</code> (可选)</dt>
+<dd>
+<p>🏳️ Default: <em>none</em>  —  为本地化设值默认的 locale。值必须是 <a href="http://books.xmlschemata.org/relaxng/ch19-77191.html">locale code</a>。</p>
+<div class="admonition tip">
+<p class="admonition-title">译者注：常用 local_code</p>
+<p>zh-CN：中文（中国）</p>
+<p>zh-hk：中文（台湾）</p>
+<p>zh：中文</p>
+<p>en-US：</p>
+<p>可以参阅 <a href="https://docs.microsoft.com/zh-cn/windows/win32/wmformat/language-strings">Language Strings | Microsoft Docs</a></p>
+</div>
+</dd>
+<dt><code>version</code></dt>
+<dd>
+<p>🏳️ Default: <em>none</em> ·  ⚠ 必须的 —  样式的 CSL 版本。对于 CSL 1.0 兼容样式，必须是 <code>1.0</code>。</p>
+</dd>
+</dl>
+<p>此外，<code>cs:style</code> 可能携带任意的 <a href="../style-behavior/#全局选项">全局选项</a> 和 <a href="../style-behavior/#可继承的名称选项">可继承的名称选项</a> 。</p>
 <p>在这些属性中，从属格式中，只有 <code>version</code> 是必须的， <code>default-locale</code> 属性可以设置用来代替的默认的本地化文件 。其他的属性是可以忽略的。</p>
-<p>下面是一个独立样式的 <code>cs:style</code> 示例，最前面是 XML 声明：</p>
+<p>下面是一个独立样式的 <code>cs:style</code> 示例，第一行是 XML 声明：</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><a href="#__codelineno-0-1"><span class="linenos" data-linenos="1 "></span></a><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2"></a><a href="#__codelineno-0-2"><span class="linenos" data-linenos="2 "></span></a><span class="nt">&lt;style</span> <span class="na">xmlns=</span><span class="s">&quot;http://purl.org/net/xbiblio/csl&quot;</span> <span class="na">version=</span><span class="s">&quot;1.0&quot;</span> <span class="na">class=</span><span class="s">&quot;in-text&quot;</span> <span class="na">default-locale=</span><span class="s">&quot;fr-FR&quot;</span><span class="nt">/&gt;</span>
 </code></pre></div>
 <h2 id="csstyle-的子元素"><code>cs:style</code> 的子元素<a class="headerlink" href="#csstyle-的子元素" title="Permanent link">&para;</a></h2>
 <p>在独立格式中，<code>cs:style</code> 有以下子元素：</p>
-<p><code>cs:info</code></p>
-<p>​ <code>info</code> 元素必须是 <code>cs:style</code> 的第一个子元素。其中包括了用来描述样式的元数据 (style name, ID, authors，也就是样式名称、样式 ID 以及样式的作者)。</p>
+<dl>
+<dt><code>cs:info</code></dt>
+<dd>
+<p>🏳️ Default: <em>none</em>  —     <code>info</code> 元素必须是 <code>cs:style</code> 的第一个子元素。其中包括了用来描述样式的元数据 (style name, ID, authors，也就是样式名称、样式 ID 以及样式的作者)。</p>
+</dd>
+</dl>
 <p><code>cs:citation</code></p>
 <p>​ 必要元素，用来描述 in-text 引文或者 notes 引文的具体格式。</p>
 <p><code>cs:bibliography</code> (可选)</p>
@@ -1040,7 +1064,7 @@
   <small>
     
       最后更新:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2022-08-02 15:48:46</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2022-08-02 20:52:14</span>
       
     
   </small>
