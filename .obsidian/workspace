@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "e2d7ffbebd0fab60",
+    "type": "split",
+    "children": [
+      {
+        "id": "220f271d161cc55d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "docs/specification/07-locale-files-strucure.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "baeb57897c501408",
+    "type": "split",
+    "children": [
+      {
+        "id": "03ae4e83a2f627be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebb4af6d201f0dff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8c631b799322e9e6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 319
+  },
+  "right": {
+    "id": "c7893cacf1acefd5",
+    "type": "split",
+    "children": [
+      {
+        "id": "555330b2c741e474",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4fa150984b9ec83",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/specification/07-locale-files-strucure.md"
+              }
+            }
+          },
+          {
+            "id": "887f696570f6f16b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/specification/07-locale-files-strucure.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "329bab32f59c8835",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/specification/07-locale-files-strucure.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fe1b078af0ce0452",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "8c941b6a57c0adfb",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 279
+  },
+  "active": "220f271d161cc55d",
+  "lastOpenFiles": [
+    "docs/specification/README.md",
+    "docs/index.md",
+    "README.md",
+    "specification/09-style-behavior.md",
+    "specification/appendix3-types.md",
+    "specification/appendix2-terms.md",
+    "specification/appendix1-categories.md",
+    "specification/README.md",
+    "csl-intro/README.md",
+    "csl-intro/02-CSL 生态.md"
+  ]
+}
