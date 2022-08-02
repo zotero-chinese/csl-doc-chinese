@@ -1,7 +1,7 @@
 ---
 title: 首页
 date: 2022-08-01 16:23:04
-updated: 2022-08-01 17:52:23
+updated: 2022-08-02 21:04:29
 ---
 
 # 首页
@@ -15,13 +15,13 @@ Zotero 文件管理软件开源且简单。CSL 的发展与 Zotero 有一定的�
 本项目是对 [CSL 英文文档](https://docs.citationstyles.org/en/stable/primer.html) 的翻译。本人能力有限，理解和翻译有误处请大家谅解，同时欢迎 issue 和 pull。
 
 > [!TIP] 本站点是对译文的重排版
->
+> 
 > 翻译者：[Mao Zhou](https://github.com/ZMAlt)
->
+> 
 > 译文原始站点：[Welcome to CSL-chinese’s documentation! — CSL-chinese documentation](https://csl-chinese.readthedocs.io/en/latest/)
->
+> 
 > 译文原始仓库：[ZMAlt/CSL-Chinese: CSL Chinese Document (github.com)](https://github.com/ZMAlt/CSL-Chinese)
->
+> 
 > 中文文档重排版：[Northword](https://github.com/northword)
->
+> 
 > 中文文档重排版仓库：[zotero-cn/csl-chinese: CSL 中文文档 (github.com)](https://github.com/zotero-cn/csl-doc-chinese)

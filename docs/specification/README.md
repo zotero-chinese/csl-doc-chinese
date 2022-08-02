@@ -1,16 +1,16 @@
 ---
 title: CSL 1.0.2 规范
 date: 2022-08-01 16:55:26
-updated: 2022-08-02 19:05:51
+updated: 2022-08-02 21:01:04
 ---
 
 # CSL 1.0.2 规范
 
-Principal Authors [Rintze M. Zelle， PhD](https://twitter.com/rintzezelle)， [Brenton M. Wiernik](https://twitter.com/bmwiernik)， Frank G. Bennett， Jr.， Bruce D’Arcus， Denis Maier
+主要作者：[Rintze M. Zelle， PhD](https://twitter.com/rintzezelle)， [Brenton M. Wiernik](https://twitter.com/bmwiernik)， Frank G. Bennett， Jr.， Bruce D’Arcus， Denis Maier
 
-with additional contributions from Julien Gonzalez， Sebastian Karcher， Sylvester Keil， Cormac Relf， Lars Willighagen， and other CSL contributors.
+其他贡献者：Julien Gonzalez， Sebastian Karcher， Sylvester Keil， Cormac Relf， Lars Willighagen， and other CSL contributors.
 
-译者：[Mao Zhou](https://github.com/ZMAlt)、[Northword](https://github.com/northword)
+译者：[Mao Zhou](https://github.com/ZMAlt)、[Northword](https://github.com/northword)。
 
 此工作以 [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) 授权。
 
@@ -25,7 +25,7 @@ CSL（Citation Style Language，引文样式语言） 是一种基于 XML 的格
 - 对样式发布和更新的基本支持
 - 数千种免费提供的样式（CC BY-SA 授权）
 
-有关的其他文档，CSL 议程，样式和本地化文件详见 [CSL 项目主页](https://citationstyles.org/)
+有关的其他文档，CSL 议程，样式和本地化文件详见 [CSL 项目主页](https://citationstyles.org/)。
 
 ## 翻译习惯
 
@@ -58,9 +58,3 @@ CSL（Citation Style Language，引文样式语言） 是一种基于 XML 的格
 > **SHOULD NOT**：在通常情况下，不是这样。但是，特殊情况下除外。与 NOT RECOMMENDED 同义。
 > 
 > **MAY**：可选的描述对象。与 OPTIONAL 同义。
-
-## 命名空间
-
-在引用 CSL 元素时，将在前面使用 `cs:`。
-
-CSL XML 命名空间 URI 是 <http://purl.org/net/xbiblio/csl>。在本规范中，当提及 CSL 元素时，命名空间前缀为 `cs:` ，但对于根元素 `cs:style` 或 `cs:locale` 的默认命名空间声明（用 `xmlns` 属性设置），通常省略 `cs:`。
