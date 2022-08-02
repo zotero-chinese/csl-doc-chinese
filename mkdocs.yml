@@ -48,6 +48,7 @@ markdown_extensions:
   - nl2br
   - attr_list
   - sane_lists
+  - def_list
   - meta
   - smarty
   - tables
