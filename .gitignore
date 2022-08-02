@@ -1,0 +1,21 @@
+# VuePress 
+node_modules/
+docs/.vuepress/.cache/
+docs/.vuepress/.temp/
+docs/.vuepress/dist/
+
+# VuePress required
+docs/.vuepress/
+docs/docs-hope/
+package.json
+pnpm-lock.yaml
+.github/workflows/vuepress.yml
+docs/vuepress-back
+
+# Mkdocs required
+# mkdocs.yml
+# requirements.txt
+# docs/**/.pages
+
+# Obsidian
+.obsidian/wordspace
