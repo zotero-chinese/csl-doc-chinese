@@ -1,10 +1,13 @@
 ---
 title: 附录 V 页码范围格式
 date: 2022-08-01 16:47:15
-updated: 2022-08-01 16:49:24
+updated: 2022-08-03 10:28:22
 ---
 
 # 附录 V 页码范围格式
+
+> [!warning] WORK IN PROGRESS
+> 此页面正在施工中。
 
 `cs:style` 元素中的 `page-range-format` 表示了页码的缩写规则，其取值可能是：
 

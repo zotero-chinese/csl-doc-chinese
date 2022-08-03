@@ -1,12 +1,13 @@
 ---
 title: CSL 生态
 date: 2022-08-01 17:33:11
-updated: 2022-08-02 21:07:26
+updated: 2022-08-03 10:18:46
 ---
 
 # CSL 生态
 
-> Working in progress
+> [!warning] WORK IN PROGRESS
+> 此页面正在施工中。
 
 要明白 `CSL` 是怎么运作的，首先要了解 `CSL` 的生态。`Style` 指的是 CSL 样式，`Item Metadata` 指的是每篇参考文献的作者，题目等信息，`Locale Files` 是为实现与语言无关（指英语，汉语等）的格式的本地化文件，`Citation Details` 指的是影响引文信息或参考文献列表表现的细节，比如顺序，位置等。
 

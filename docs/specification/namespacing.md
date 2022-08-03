@@ -1,12 +1,12 @@
 ---
 title: 命名空间
 date: 2022-08-02 21:00:28
-updated: 2022-08-02 21:03:34
+updated: 2022-08-03 10:22:50
 ---
 
 # 命名空间
 
-> namespacing
+> [!Done] namespacing
 
 CSL XML 命名空间 URI 是 <http://purl.org/net/xbiblio/csl>。
 

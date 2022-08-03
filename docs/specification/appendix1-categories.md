@@ -1,11 +1,13 @@
 ---
 title: 附录 I 学科分类
 date: 2022-08-01 16:42:15
-updated: 2022-08-01 16:43:30
+updated: 2022-08-03 10:27:14
 ---
 
 # 附录 I 学科分类
 
+> [!warning] WORK IN PROGRESS
+> 此页面正在施工中。
 - anthropology 人类学
 - astronomy 天文学
 - biology 生物学

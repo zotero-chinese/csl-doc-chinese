@@ -1,12 +1,13 @@
 ---
 title: 空格处理
 date: 2022-08-02 16:02:13
-updated: 2022-08-02 21:02:39
+updated: 2022-08-03 10:26:47
 ---
 
 # 空格处理
 
-> Whitespace Handling
+> [!question] Whitespace Handling
+> 翻译有一些疑惑，请参阅原文，欢迎提出改善意见。
 
 CSL styles are valid XML, but CSL processors MUST NOT normalize attribute values by trimming leading or trailing whitespace from attributes which define text that is intended for output:
 

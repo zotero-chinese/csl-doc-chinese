@@ -1,12 +1,13 @@
 ---
 title: Locale File
 date: 2022-08-02 16:02:13
-updated: 2022-08-02 21:07:38
+updated: 2022-08-03 10:17:57
 ---
 
 # Locale File
 
-> Working in progress
+> [!warning] WORK IN PROGRESS
+> 此页面正在施工中。
 
 ## 前言
 

@@ -6,7 +6,8 @@ updated: 2022-08-02 21:10:19
 
 # 首页
 
-> Working in progress
+> [!warning] WORK IN PROGRESS
+> 此页面正在施工中。
 
 CSL (Citation Style Language) 是一种基于 XML 的语言，用来描述或格式化引用和参考文献目录的开源语言。使用 CSL 的参考文献管理软件包括 Zotero，Mendeley，Papers。
 
@@ -29,4 +30,4 @@ Zotero 文件管理软件开源且简单。CSL 的发展与 Zotero 有一定的�
 > 中文文档重排版仓库：[zotero-cn/csl-chinese: CSL 中文文档 (github.com)](https://github.com/zotero-cn/csl-doc-chinese)
 
 > [!danger] 译者注
-> 文档中，凡标注 Working in progress 的均为正在施工的页面，无法确保与现有英文文档相一致，无法确保译文修改前后的一致性、准确性，请酌情阅读。
+> 文档中，凡标注 Work in progress 的均为正在施工的页面，无法确保与现有英文文档相一致，无法确保译文修改前后的一致性、准确性，请酌情阅读。

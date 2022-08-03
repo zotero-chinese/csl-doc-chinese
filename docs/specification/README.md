@@ -1,10 +1,13 @@
 ---
 title: CSL 1.0.2 规范
 date: 2022-08-01 16:55:26
-updated: 2022-08-02 21:01:04
+updated: 2022-08-03 10:19:55
 ---
 
 # CSL 1.0.2 规范
+
+> [!DONE] 
+> 此页面于 2022-8-2 已校对完成。
 
 主要作者：[Rintze M. Zelle， PhD](https://twitter.com/rintzezelle)， [Brenton M. Wiernik](https://twitter.com/bmwiernik)， Frank G. Bennett， Jr.， Bruce D’Arcus， Denis Maier
 

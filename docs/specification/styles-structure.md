@@ -1,12 +1,13 @@
 ---
-title: 样式结构
+title: 样式的结构
 date: 2022-08-01 16:55:26
-updated: 2022-08-02 20:48:15
+updated: 2022-08-03 10:24:09
 ---
 
-# 样式结构
+# 样式的结构
 
-> Working in progress
+> [!warning] WORK IN PROGRESS
+> 此页面正在施工中。
 
 ## 根元素 `cs:style`
 

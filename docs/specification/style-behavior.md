@@ -1,12 +1,13 @@
 ---
-title: 样式行为
+title: 样式的行为
 date: 2022-08-01 16:55:26
-updated: 2022-08-02 21:06:59
+updated: 2022-08-03 10:24:14
 ---
 
-# 样式行为
+# 样式的行为
 
-> Working in progress
+> [!warning] WORK IN PROGRESS
+> 此页面正在施工中。
 
 ## 选项
 
