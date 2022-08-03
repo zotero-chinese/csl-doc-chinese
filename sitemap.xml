@@ -46,36 +46,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://csl-cn.github.io/csl-chinese/specification/appendix1-categories/</loc>
-         <lastmod>2022-08-03</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://csl-cn.github.io/csl-chinese/specification/appendix2-terms/</loc>
-         <lastmod>2022-08-03</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://csl-cn.github.io/csl-chinese/specification/appendix3-types/</loc>
-         <lastmod>2022-08-03</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://csl-cn.github.io/csl-chinese/specification/appendix4-variables/</loc>
-         <lastmod>2022-08-03</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://csl-cn.github.io/csl-chinese/specification/appendix5-page-range-formats/</loc>
-         <lastmod>2022-08-03</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://csl-cn.github.io/csl-chinese/specification/appendix6-links/</loc>
-         <lastmod>2022-08-03</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://csl-cn.github.io/csl-chinese/specification/file-types/</loc>
          <lastmod>2022-08-03</lastmod>
          <changefreq>daily</changefreq>
@@ -112,6 +82,36 @@
     </url>
     <url>
          <loc>https://csl-cn.github.io/csl-chinese/specification/xml-declaration/</loc>
+         <lastmod>2022-08-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://csl-cn.github.io/csl-chinese/specification/appendix/appendix1-categories/</loc>
+         <lastmod>2022-08-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://csl-cn.github.io/csl-chinese/specification/appendix/appendix2-terms/</loc>
+         <lastmod>2022-08-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://csl-cn.github.io/csl-chinese/specification/appendix/appendix3-types/</loc>
+         <lastmod>2022-08-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://csl-cn.github.io/csl-chinese/specification/appendix/appendix4-variables/</loc>
+         <lastmod>2022-08-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://csl-cn.github.io/csl-chinese/specification/appendix/appendix5-page-range-formats/</loc>
+         <lastmod>2022-08-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://csl-cn.github.io/csl-chinese/specification/appendix/appendix6-links/</loc>
          <lastmod>2022-08-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
