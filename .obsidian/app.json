@@ -20,5 +20,5 @@
   "newFileLocation": "current",
   "spellcheck": true,
   "strictLineBreaks": true,
-  "useTab": true
+  "useTab": false
 }
