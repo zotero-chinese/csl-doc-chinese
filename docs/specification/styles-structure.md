@@ -1,7 +1,7 @@
 ---
 title: 样式的结构
 date: 2022-08-01 16:55:26
-updated: 2022-08-03 10:24:09
+updated: 2022-08-03 13:27:20
 ---
 
 # 样式的结构
@@ -11,11 +11,11 @@ updated: 2022-08-03 10:24:09
 
 ## 根元素 `cs:style`
 
-样式的根元素是 `cs:style`。在独立格式中，根元素有以下几种属性：
+样式的根元素是 `cs:style`。在 [独立样式](file-types.md#独立样式) 中，根元素有以下几种属性：
 
 `class`
 
-:    🏳️ Default: _none_  — 	 决定样式的 [引文格式](../primer/citation-formats.md) 是 in-text 类型（值 `in-text`） 或者 note 类型（值 `note`）。
+:    🏳️ Default: _none_  —  决定样式的 [引文格式](../primer/citation-formats.md#引文格式) 是 in-text 类型（值 `in-text`） 或者 note 类型（值 `note`）。
 
 	!!! NOTE "译者注"
 		in-text 表示引文在文字中，note 表示引文不在文字中，可能是脚注等。
@@ -38,13 +38,13 @@ updated: 2022-08-03 10:24:09
 
 `version`
 
-:    🏳️ Default: _none_ ·  ⚠ 必须的 — 	样式的 CSL 版本。对于 CSL 1.0 兼容样式，必须是 `1.0`。
+:    🏳️ Default: _none_ ·  ⚠ Required — 	样式的 CSL 版本。对于 CSL 1.0 兼容样式，必须是 `1.0`。
 
 此外，`cs:style` 可能携带任意的 [全局选项](style-behavior.md#全局选项) 和 [可继承的名称选项](style-behavior.md#可继承的名称选项) 。
 
-在这些属性中，从属格式中，只有 `version` 是必须的， `default-locale` 属性可以设置用来代替的默认的本地化文件 。其他的属性是可以忽略的。
+在这些属性中，[从属样式](file-types.md#从属样式) 中，只有 `version` 是必须的， `default-locale` 属性可以设置用来代替的默认的本地化文件 。其他的属性是可以忽略的。
 
-下面是一个独立样式的 `cs:style` 示例，第一行是 XML 声明：
+下面是一个 [独立样式](file-types.md#独立样式) 的 `cs:style` 示例，第一行是 XML 声明：
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -53,93 +53,107 @@ updated: 2022-08-03 10:24:09
 
 ## `cs:style` 的子元素
 
-在独立格式中，`cs:style` 有以下子元素：
+在 [独立样式](file-types.md#独立样式) 中，`cs:style` 有以下子元素：
 
 `cs:info`
 
-: 🏳️ Default: _none_  — 	`info` 元素必须是 `cs:style` 的第一个子元素。其中包括了用来描述样式的元数据 (style name, ID, authors，也就是样式名称、样式 ID 以及样式的作者)。
+:    🏳️ Default: _none_  ·  ⚠ Required ·  ⚠ 必须为第一个子元素 — 描述样式的元数据 ：样式名称（style name）、样式 ID（ID）、样式作者（authors）。
 
 `cs:citation`
 
-​ 必要元素，用来描述 in-text 引文或者 notes 引文的具体格式。
+:    🏳️ Default: _none_ ·  ⚠ Required — 用来描述 in-text 引文或者 notes 引文的具体格式。
 
-`cs:bibliography` (可选)
+`cs:bibliography` 
 
-​ 可能会出现一次。描述参考文献列表的格式。
+:    🏳️ Default: _none_ ·   Optional — 可能会出现一次。描述参考文献列表的格式。
 
-`cs:macro` (可选)
+`cs:macro`
 
-​ 可能多次出现。宏通过格式化指示来重复使用，可以使样式更加的紧凑和易维护。
+:    🏳️ Default: _none_ ·   Optional — 可能出现多次。宏可以将格式指示重复使用，使样式更加的紧凑和易维护。
 
-`cs:locale` (可选)
+`cs:locale`
 
-​ 可能多次出现。用于指定或者覆盖当前的本地化数据。
+:    🏳️ Default: _none_ ·   Optional — 可能出现多次。用于指定或者覆盖当前的本地化数据。
 
-在 [从属格式](#从属格式) 中，`cs:style` 只有一个子元素，`cs:info`。
+在 [从属样式](file-types.md#从属样式) 中，`cs:style` 只有 `cs:info` 一个子元素。
 
 ### Info
 
-`cs:info` 包含了样式的元数据。其结构基于 [Atom Syndication Format](http://tools.ietf.org/html/rfc4287)。在独立格式中，`cs:info` 有下面的几个子元素：
+`cs:info` 包含了样式的元数据。其结构基于 [Atom Syndication Format](http://tools.ietf.org/html/rfc4287)。在独立样式中，`cs:info` 有下面的几个子元素：
 
-`cs:author` 和 `cs:contributor` （可选）
+#### `cs:author` 和 `cs:contributor` 
 
-​ `cs:author` 和 `cs:contributor` 分别用来致谢样式的作者和贡献者，可能被使用多次。在这些元素中，必须包含子元素 `cs:name`，`cs:email` 和 `cs:uri` 则可能有，也可能没有，这些子元素分别代表作者或者贡献者的名字，邮箱和 URI。（即，作者和贡献者的名字是必须的，邮箱和 URI 则是可选的）
+:    🏳️ Default: _none_ ·   Optional — `cs:author` 和 `cs:contributor` 分别用来致谢样式的作者和贡献者，可能被使用多次。
 
-`cs:category` (可选)
+     `cs:name`
+    
+     :    🏳️ Default: _none_ ·  ⚠ Required — 作者或贡献者的姓名。
+    
+     `cs:email` 和 `cs:uri` 
+    
+     :    🏳️ Default: _none_ ·  Optional — 作者或者贡献者邮箱和 URI。
 
-​ 样式可能被分类到一个或者多个类别，`cs:category` 可能被使用一次，用来描述 in-text 引文怎么渲染。使用 `citation-format` 属性设置其为以下几种情形：
+#### `cs:category`
 
-- "author-date" - 例如 "… (Doe, 1999)"
+:    🏳️ Default: _none_ ·   Optional — 样式可能被分类到一个或者多个类别，`cs:category` 可能被使用一次，用来描述 in-text 引文怎么渲染。使用 `citation-format` 属性设置其为以下几种情形：
 
-- "author" - 例如 "… (Doe)"
-
-- "numeric" - 例如 "… [1]"
-
-- "label" - 例如 "… [doe99]"
-
-- "note" - 因为在边注或者脚注出现。
+	- "author-date" - 例如 "… (Doe, 1999)"
+	
+	- "author" - 例如 "… (Doe)"
+	
+	- "numeric" - 例如 "… [1]"
+	
+	- "label" - 例如 "… [doe99]"
+	
+	- "note" - 因为在边注或者脚注出现。
 
   `cs:categroy` 也可能在携带 `field` 属性时多次使用，用来对学科进行分类（见 [附录I 学科分类](附录I 学科分类)）。
 
-`cs:id`
+#### `cs:id`
 
-​ 必须出现一次。该元素应该包含一个 URI 以建立样式的 `ID`，对于公开可用的样式，需要一个稳定、唯一的并可以引用的 URI。
+:    🏳️ Default: _none_ · ⚠ Required — 必须出现一次。该元素应该包含一个 URI 以建立样式的 `ID`，对于公开可用的样式，需要一个稳定、唯一的并可以引用的 URI。
 
-`cs:issn/cs:essn/cs:issnl`（可选）
+#### `cs:issn/cs:essn/cs:issnl`
 
-​ `cs:issn` 元素可以多次使用，用来表示该 CSL 对应的期刊的 ISSN 。 `cs:eissn` 和 `cs:issnl` 可以分别用来表示 eISSN 和 [ISSN-L](http://www.issn.org/2-22637-What-is-an-ISSN-L.php) 。
+:    🏳️ Default: _none_ ·   Optional — `cs:issn` 元素可以多次使用，用来表示该 CSL 对应的期刊的 ISSN 。 `cs:eissn` 和 `cs:issnl` 可以分别用来表示 eISSN 和 [ISSN-L](http://www.issn.org/2-22637-What-is-an-ISSN-L.php) 。
 
-`cs:link` (可选)
+#### `cs:link` 
 
-​ 可以使用多次。`cs:link` 必须携带两个属性 `href` 和 `rel`。`href` 用来设置 URI （通常情况下为 URL），`rel` 表明 URI 与当前样式的关系，它的值可能是：
+:    🏳️ Default: _none_ ·   Optional — 可以使用多次。`cs:link` 必须携带两个属性 `href` 和 `rel`。
 
-- "self" - 该 URI 值为样式的 URI
-- "template" - 该 URI 是用来编写该样式的模板的 URI
-- "documentation" - 该 URI 是该样式的文档
+    `href`
+    :    ⚠ Required — 用来设置 URI （通常情况下为 URL）
+    
+    `rel`
+    :    ⚠ Required — 表明 URI 与当前样式的关系，它的值有：
 
-`cs:published` (可选)
+        - `self` - 该 URI 值为样式本身的 URI
+        - `template` - 该 URI 是用来编写该样式的模板的 URI
+        - `documentation` - 该 URI 是该样式的文档
 
-​ `cs:published` 必须是一个 [时间戳](http://books.xmlschemata.org/relaxng/ch19-77049.html)，用来表明样式创建的时间或者可获得的时间。
+#### `cs:published`
 
-`cs:rights` (可选)
+:    🏳️ Default: _none_ ·   Optional — `cs:published` 必须是一个 [时间戳](http://books.xmlschemata.org/relaxng/ch19-77049.html)，用来表明样式创建的时间或者可获得的时间。
 
-​ `cs:rights` 表明了该 CSL 的 license，可能会携带 `license` 属性。
+#### `cs:rights` 
 
-`cs:summary` (可选)
+:    🏳️ Default: _none_ ·   Optional — `cs:rights` 表明了该 CSL 的 license，可能会携带 `license` 属性。
 
-​ 给出该 CSL 的简单描述。
+#### `cs:summary` 
 
-`cs:title`
+:    🏳️ Default: _none_ ·   Optional — 给出该 CSL 的简单描述。
 
-​ 其内容应该是该 CSL 展示给使用者的名字。
+#### `cs:title`
 
-`cs:title-short` (可选)
+:    🏳️ Default: _none_ · ⚠ Required — 其内容应该是该 CSL 展示给使用者的名字。
 
-​ 是上述名字的缩写，比如 `APA`
+#### `cs:title-short`
 
-`cs:updated`
+:    🏳️ Default: _none_ ·   Optional — 是上述名字的缩写，比如 `APA`
 
-​ 内容是一个 [时间戳](http://books.xmlschemata.org/relaxng/ch19-77049.html)，用来表示该 CSL 的最后更新时间。
+#### `cs:updated`
+
+:    🏳️ Default: _none_ ·    — 内容是一个 [时间戳](http://books.xmlschemata.org/relaxng/ch19-77049.html)，用来表示该 CSL 的最后更新时间。
 
 `cs:link`, `cs:rights`, `cs:summary`, `cs:title` 和 `cs:title-short` 元素可以携带 `xml:lang` 属性用来表示元素内容的语言（值必须是 [xsd:language locale code](http://books.xmlschemata.org/relaxng/ch19-77191.html) 中的一个）。对于 `cs:link`，该属性可以用来表示链接目标的语言。
 
