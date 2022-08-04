@@ -39,7 +39,7 @@ theme:
         # - navigation.tabs
         # - navigation.tabs.sticky
         # - navigation.sections
-        - navigation.instant
+        # - navigation.instant
         # - navigation.expand
         # - toc.integrate
 # Extensions
@@ -100,6 +100,7 @@ plugins:
   - callouts
 extra_javascript:
   # - assets/js/utils.js
+  - assets/js/custom.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   # - assets/js/tooltipster.bundle.js  
