@@ -6,7 +6,7 @@ updated: 2022-08-03 10:22:50
 
 # 命名空间
 
-> [!Done] namespacing
+> [!Done] Namespacing
 
 CSL XML 命名空间 URI 是 <http://purl.org/net/xbiblio/csl>。
 

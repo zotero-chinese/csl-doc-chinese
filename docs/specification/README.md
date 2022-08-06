@@ -1,7 +1,7 @@
 ---
 title: CSL 1.0.2 规范
 date: 2022-08-01 16:55:26
-updated: 2022-08-03 10:19:55
+updated: 2022-08-05 18:05:52
 ---
 
 # CSL 1.0.2 规范
@@ -9,11 +9,11 @@ updated: 2022-08-03 10:19:55
 > [!DONE] 
 > 此页面于 2022-8-2 已校对完成。
 
-主要作者：[Rintze M. Zelle， PhD](https://twitter.com/rintzezelle)， [Brenton M. Wiernik](https://twitter.com/bmwiernik)， Frank G. Bennett， Jr.， Bruce D’Arcus， Denis Maier
+主要作者：[Rintze M. Zelle， PhD](https://twitter.com/rintzezelle)、 [Brenton M. Wiernik](https://twitter.com/bmwiernik)、Frank G. Bennett， Jr.、 Bruce D’Arcus、Denis Maier
 
-其他贡献者：Julien Gonzalez， Sebastian Karcher， Sylvester Keil， Cormac Relf， Lars Willighagen， and other CSL contributors.
+其他贡献者：Julien Gonzalez、Sebastian Karcher、Sylvester Keil、Cormac Relf、Lars Willighagen  and other CSL contributors.
 
-译者：[Mao Zhou](https://github.com/ZMAlt)、[Northword](https://github.com/northword)。
+译者：[Mao Zhou](https://github.com/ZMAlt)、 [Northword](https://github.com/northword)。
 
 此工作以 [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) 授权。
 
@@ -50,7 +50,7 @@ CSL（Citation Style Language，引文样式语言） 是一种基于 XML 的格
 > 
 > RFC ，即 **R**equest **f**or **C**omments，意见征求稿，是由 [The Internet Engineering Task Force](http://www.ietf.org/) 制作的文档，其中许多是各种 Internet 协议的官方标准。
 > 
-> 协议全文：https://www.ietf.org/rfc/rfc2119.txt
+> RFC 2119 协议全文：https://www.ietf.org/rfc/rfc2119.txt
 > 
 > **MUST**：必须的。通过它描述的对象，是强制要求的。它与 REQUIRED 和 SHALL 含义相同。
 >  

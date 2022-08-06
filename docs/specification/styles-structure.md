@@ -1,7 +1,7 @@
 ---
 title: 样式的结构
 date: 2022-08-01 16:55:26
-updated: 2022-08-03 13:27:20
+updated: 2022-08-05 18:03:05
 ---
 
 # 样式的结构
@@ -20,9 +20,9 @@ updated: 2022-08-03 13:27:20
 	!!! NOTE "译者注"
 		in-text 表示引文在文字中，note 表示引文不在文字中，可能是脚注等。
 
-`default-locale` (可选)
+`default-locale`
 
-:    🏳️ Default: _none_  —  为本地化设值默认的 locale。值必须是 [locale code](http://books.xmlschemata.org/relaxng/ch19-77191.html)。
+:    🏳️ Default: _none_  · Optional —  为本地化设值默认的 locale。值必须是 [locale code](http://books.xmlschemata.org/relaxng/ch19-77191.html)。
 
 	!!! TIP "译者注：常用 local_code"
 
@@ -155,9 +155,9 @@ updated: 2022-08-03 13:27:20
 
 :    🏳️ Default: _none_ ·    — 内容是一个 [时间戳](http://books.xmlschemata.org/relaxng/ch19-77049.html)，用来表示该 CSL 的最后更新时间。
 
-`cs:link`, `cs:rights`, `cs:summary`, `cs:title` 和 `cs:title-short` 元素可以携带 `xml:lang` 属性用来表示元素内容的语言（值必须是 [xsd:language locale code](http://books.xmlschemata.org/relaxng/ch19-77191.html) 中的一个）。对于 `cs:link`，该属性可以用来表示链接目标的语言。
+`cs:link`，`cs:rights`，`cs:summary`， `cs:title` 和 `cs:title-short` 元素可以携带 `xml:lang` 属性用来表示元素内容的语言（值必须是 [xsd:language locale code](http://books.xmlschemata.org/relaxng/ch19-77191.html) 中的一个）。对于 `cs:link`，该属性可以用来表示链接目标的语言。
 
-在从属格式中，当 `cs:link` 中的 `href` 为其父格式的 URI 时，`rel` 属性必须设置为 `"independent-parent"`。此外，从属格式的 `ref` 不能设置为 `"template"`，这在独立格式中才能使用。
+在从属格式中，当 `cs:link` 中的 `href` 为其父格式的 URI 时，`rel` 属性必须设置为 `"independent-parent"`。此外，从属格式的 `ref` 不能设置为 `template`，这在独立格式中才能使用。
 
 下面是一个独立样式 `cs:info` 的例子：
 
@@ -182,7 +182,7 @@ updated: 2022-08-03 13:27:20
 
 ### Citation
 
-`cs:citation` 元素描述了引文的格式，其中引文可以是一条或者多条。引文的格式可能是 in-text citations（即文字中的引文）和 notes（注记）。in-text citations 包括 (`"author"，例: [Doe]`，`"author-date"，例: [Doe 1999]`，`"label"，例: [doe99]`，`"author"，例: [Doe]` 或者 `"number"，例:[1]` ) 。这要求 `cs:layout` 子元素来描述什么样的数据，以及怎么被引用（见 [Layout](Layout)）。在 `cs:layout` 之前可能会有 `cs:sort` 元素，用来描述引文的排序（见 [排序](排序)）。此外，`cs:style` 可能携带任意的 [引文选项](#引文选项) 和 [可继承名称选项](#可继承的名称选项) 中的属性。下面是一个 `cs:citation` 的例子：
+`cs:citation` 元素描述了引文的格式，其中引文可以是一条或者多条。引文的格式可能是 in-text citations（即文字中的引文）和 notes（注记）。in-text citations 包括 (`"author"，例: [Doe]`，`"author-date"，例: [Doe 1999]`，`"label"，例: [doe99]`，`"author"，例: [Doe]` 或者 `"number"，例:[1]` ) 。这要求 `cs:layout` 子元素来描述什么样的数据，以及怎么被引用（见 [Layout](rendering-elements.md#Layout) ）。在 `cs:layout` 之前可能会有 `cs:sort` 元素，用来描述引文的排序（见 [排序](排序)）。此外，`cs:style` 可能携带任意的 [引文选项](style-behavior.md#引文选项) 和 [可继承的名称选项](style-behavior.md#可继承的名称选项) 中的属性。下面是一个 `cs:citation` 的例子：
 
 ```xml
 <citation>
