@@ -326,7 +326,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../primer/understanding%20csl%20styles/" class="md-nav__link">
+      <a href="../../primer/understanding-csl-styles/" class="md-nav__link">
         理解 CSL 格式
       </a>
     </li>
@@ -867,6 +867,21 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/zotero-cn/styles" class="md-nav__link">
+        中文用样式文件仓库
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -1065,9 +1080,9 @@
 <p>in-text 表示引文在文字中，note 表示引文不在文字中，可能是脚注等。</p>
 </div>
 </dd>
-<dt><code>default-locale</code> (可选)</dt>
+<dt><code>default-locale</code></dt>
 <dd>
-<p>🏳️ Default: <em>none</em>  —  为本地化设值默认的 locale。值必须是 <a href="http://books.xmlschemata.org/relaxng/ch19-77191.html">locale code</a>。</p>
+<p>🏳️ Default: <em>none</em>  · Optional —  为本地化设值默认的 locale。值必须是 <a href="http://books.xmlschemata.org/relaxng/ch19-77191.html">locale code</a>。</p>
 <div class="admonition tip">
 <p class="admonition-title">译者注：常用 local_code</p>
 <p>zh-CN：中文（中国）</p>
@@ -1206,8 +1221,8 @@
 <dl>
 <dd>🏳️ Default: <em>none</em> ·    — 内容是一个 <a href="http://books.xmlschemata.org/relaxng/ch19-77049.html">时间戳</a>，用来表示该 CSL 的最后更新时间。</dd>
 </dl>
-<p><code>cs:link</code>, <code>cs:rights</code>, <code>cs:summary</code>, <code>cs:title</code> 和 <code>cs:title-short</code> 元素可以携带 <code>xml:lang</code> 属性用来表示元素内容的语言（值必须是 <a href="http://books.xmlschemata.org/relaxng/ch19-77191.html">xsd:language locale code</a> 中的一个）。对于 <code>cs:link</code>，该属性可以用来表示链接目标的语言。</p>
-<p>在从属格式中，当 <code>cs:link</code> 中的 <code>href</code> 为其父格式的 URI 时，<code>rel</code> 属性必须设置为 <code>"independent-parent"</code>。此外，从属格式的 <code>ref</code> 不能设置为 <code>"template"</code>，这在独立格式中才能使用。</p>
+<p><code>cs:link</code>，<code>cs:rights</code>，<code>cs:summary</code>， <code>cs:title</code> 和 <code>cs:title-short</code> 元素可以携带 <code>xml:lang</code> 属性用来表示元素内容的语言（值必须是 <a href="http://books.xmlschemata.org/relaxng/ch19-77191.html">xsd:language locale code</a> 中的一个）。对于 <code>cs:link</code>，该属性可以用来表示链接目标的语言。</p>
+<p>在从属格式中，当 <code>cs:link</code> 中的 <code>href</code> 为其父格式的 URI 时，<code>rel</code> 属性必须设置为 <code>"independent-parent"</code>。此外，从属格式的 <code>ref</code> 不能设置为 <code>template</code>，这在独立格式中才能使用。</p>
 <p>下面是一个独立样式 <code>cs:info</code> 的例子：</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><a href="#__codelineno-1-1"><span class="linenos" data-linenos=" 1 "></span></a><span class="nt">&lt;info&gt;</span>
 <a id="__codelineno-1-2" name="__codelineno-1-2"></a><a href="#__codelineno-1-2"><span class="linenos" data-linenos=" 2 "></span></a>  <span class="nt">&lt;title&gt;</span>Style Title<span class="nt">&lt;/title&gt;</span>
@@ -1227,7 +1242,7 @@
 <a id="__codelineno-1-16" name="__codelineno-1-16"></a><a href="#__codelineno-1-16"><span class="linenos" data-linenos="16 "></span></a><span class="nt">&lt;/info&gt;</span>
 </code></pre></div>
 <h3 id="citation">Citation<a class="headerlink" href="#citation" title="Permanent link">&para;</a></h3>
-<p><code>cs:citation</code> 元素描述了引文的格式，其中引文可以是一条或者多条。引文的格式可能是 in-text citations（即文字中的引文）和 notes（注记）。in-text citations 包括 (<code>"author"，例: [Doe]</code>，<code>"author-date"，例: [Doe 1999]</code>，<code>"label"，例: [doe99]</code>，<code>"author"，例: [Doe]</code> 或者 <code>"number"，例:[1]</code> ) 。这要求 <code>cs:layout</code> 子元素来描述什么样的数据，以及怎么被引用（见 <a href="../Layout">Layout</a>）。在 <code>cs:layout</code> 之前可能会有 <code>cs:sort</code> 元素，用来描述引文的排序（见 <a href="../%E6%8E%92%E5%BA%8F">排序</a>）。此外，<code>cs:style</code> 可能携带任意的 <a href="./#引文选项">引文选项</a> 和 <a href="./#可继承的名称选项">可继承名称选项</a> 中的属性。下面是一个 <code>cs:citation</code> 的例子：</p>
+<p><code>cs:citation</code> 元素描述了引文的格式，其中引文可以是一条或者多条。引文的格式可能是 in-text citations（即文字中的引文）和 notes（注记）。in-text citations 包括 (<code>"author"，例: [Doe]</code>，<code>"author-date"，例: [Doe 1999]</code>，<code>"label"，例: [doe99]</code>，<code>"author"，例: [Doe]</code> 或者 <code>"number"，例:[1]</code> ) 。这要求 <code>cs:layout</code> 子元素来描述什么样的数据，以及怎么被引用（见 <a href="../rendering-elements/#Layout">Layout</a> ）。在 <code>cs:layout</code> 之前可能会有 <code>cs:sort</code> 元素，用来描述引文的排序（见 <a href="../%E6%8E%92%E5%BA%8F">排序</a>）。此外，<code>cs:style</code> 可能携带任意的 <a href="../style-behavior/#引文选项">引文选项</a> 和 <a href="../style-behavior/#可继承的名称选项">可继承的名称选项</a> 中的属性。下面是一个 <code>cs:citation</code> 的例子：</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a><a href="#__codelineno-2-1"><span class="linenos" data-linenos="1 "></span></a><span class="nt">&lt;citation&gt;</span>
 <a id="__codelineno-2-2" name="__codelineno-2-2"></a><a href="#__codelineno-2-2"><span class="linenos" data-linenos="2 "></span></a>  <span class="nt">&lt;sort&gt;</span>
 <a id="__codelineno-2-3" name="__codelineno-2-3"></a><a href="#__codelineno-2-3"><span class="linenos" data-linenos="3 "></span></a>    <span class="nt">&lt;key</span> <span class="na">variable=</span><span class="s">&quot;citation-number&quot;</span><span class="nt">/&gt;</span>
@@ -1341,7 +1356,7 @@
   <small>
     
       最后更新:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2022-08-03 13:37:13</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2022-08-06 22:05:44</span>
       
     
   </small>
