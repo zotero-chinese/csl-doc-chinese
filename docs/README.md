@@ -6,8 +6,10 @@ updated: 2022-08-02 21:10:19
 
 # 首页
 
-> [!warning] WORK IN PROGRESS
-> 此页面正在施工中。
+> [!warning] 文档地址已更换
+> 该仓库文档已移动至 zotero-chinese/wiki 与用户手册、开发手册 共同维护，访问请前往：
+> - 仓库：https://github.com/zotero-chinese
+> - 网站：https://zotero-chinese.com
 
 CSL (Citation Style Language) 是一种基于 XML 的语言，用来描述或格式化引用和参考文献目录的开源语言。使用 CSL 的参考文献管理软件包括 Zotero，Mendeley，Papers。
 
