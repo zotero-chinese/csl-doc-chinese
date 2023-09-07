@@ -12,8 +12,15 @@
       
         <link rel="canonical" href="https://csl-cn.github.io/csl-chinese/specification/styles-structure/">
       
+      
+        <link rel="prev" href="../xml-declaration/">
+      
+      
+        <link rel="next" href="../locale-files-strucure/">
+      
+      
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.8">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.8">
     
     
       
@@ -21,15 +28,17 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.20d9efc8.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.046329b4.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.815d1a91.min.css">
-        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.85d0ee34.min.css">
       
       
 
+
     
+    
+      
     
     
       
@@ -84,7 +93,9 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
     <a href="../.." title="CSL 中文文档" class="md-header__button md-logo" aria-label="CSL 中文文档" data-md-component="logo">
       
@@ -93,6 +104,7 @@
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
+      
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
@@ -112,31 +124,36 @@
       </div>
     </div>
     
-      <form class="md-header__option" data-md-component="palette">
-        
-          
-          
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
-          
-            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
-            </label>
-          
-        
-          
-          
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
-          
-            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
-            </label>
-          
-        
-      </form>
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+</form>
+      
     
     
     
       <label class="md-header__button md-icon" for="__search">
+        
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
       </label>
       <div class="md-search" data-md-component="search" role="dialog">
@@ -145,12 +162,15 @@
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
+        
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
       </label>
       <nav class="md-search__options" aria-label="查找">
         
         <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
         </button>
       </nav>
@@ -162,7 +182,7 @@
           <div class="md-search-result__meta">
             正在初始化搜索引擎
           </div>
-          <ol class="md-search-result__list"></ol>
+          <ol class="md-search-result__list" role="presentation"></ol>
         </div>
       </div>
     </div>
@@ -174,7 +194,7 @@
         <a href="https://github.com/zotero-cn/csl-doc-chinese" title="前往仓库" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
   </div>
   <div class="md-source__repository">
     csl-doc-chinese
@@ -204,6 +224,7 @@
                     
 
 
+
 <nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="CSL 中文文档" class="md-nav__button md-logo" aria-label="CSL 中文文档" data-md-component="logo">
@@ -219,7 +240,7 @@
       <a href="https://github.com/zotero-cn/csl-doc-chinese" title="前往仓库" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
   </div>
   <div class="md-source__repository">
     csl-doc-chinese
@@ -231,14 +252,18 @@
     
       
       
-      
-
   
   
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        首页
+        
+  
+  <span class="md-ellipsis">
+    首页
+  </span>
+  
+
       </a>
     </li>
   
@@ -246,236 +271,301 @@
     
       
       
-      
-
   
   
   
     
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
-      
-      
-      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../primer/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    CSL 简介
+  </span>
+  
+
+            </a>
             
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-      
-        
-        
-        <div class="md-nav__link md-nav__link--index ">
-          <a href="../../primer/">CSL 简介</a>
-          
-            <label for="__nav_2">
-              <span class="md-nav__icon md-icon"></span>
-            </label>
-          
-        </div>
-      
-      <nav class="md-nav" aria-label="CSL 简介" data-md-level="1">
-        <label class="md-nav__title" for="__nav_2">
-          <span class="md-nav__icon md-icon"></span>
-          CSL 简介
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
+              <label class="md-nav__link " for="__nav_2">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
             
-          
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            CSL 简介
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+            
+              
+                
   
   
   
     <li class="md-nav__item">
       <a href="../../primer/citation-formats/" class="md-nav__link">
-        引文格式
+        
+  
+  <span class="md-ellipsis">
+    引文格式
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../../primer/the-csl-ecosystem/" class="md-nav__link">
-        CSL 生态
+        
+  
+  <span class="md-ellipsis">
+    CSL 生态
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../../primer/understanding-csl-styles/" class="md-nav__link">
-        理解 CSL 格式
+        
+  
+  <span class="md-ellipsis">
+    理解 CSL 格式
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../../primer/end/" class="md-nav__link">
-        更进一步
+        
+  
+  <span class="md-ellipsis">
+    更进一步
+  </span>
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
   
   
     
   
   
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
     
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
-      
-      
-      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    CSL 规范
+  </span>
+  
+
+            </a>
             
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-      
-        
-        
-        <div class="md-nav__link md-nav__link--index ">
-          <a href="../">CSL 规范</a>
-          
-            <label for="__nav_3">
-              <span class="md-nav__icon md-icon"></span>
-            </label>
-          
-        </div>
-      
-      <nav class="md-nav" aria-label="CSL 规范" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
-          <span class="md-nav__icon md-icon"></span>
-          CSL 规范
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
+              <label class="md-nav__link " for="__nav_3">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
             
-          
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            CSL 规范
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+            
+              
+                
   
   
   
     <li class="md-nav__item">
       <a href="../namespacing/" class="md-nav__link">
-        命名空间
+        
+  
+  <span class="md-ellipsis">
+    命名空间
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../whitespace-handling/" class="md-nav__link">
-        空格处理
+        
+  
+  <span class="md-ellipsis">
+    空格处理
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../file-types/" class="md-nav__link">
-        文件类型
+        
+  
+  <span class="md-ellipsis">
+    文件类型
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../xml-declaration/" class="md-nav__link">
-        XML 声明
+        
+  
+  <span class="md-ellipsis">
+    XML 声明
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
     
@@ -483,19 +573,31 @@
   
     <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
         
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          样式的结构
+          
+  
+  <span class="md-ellipsis">
+    样式的结构
+  </span>
+  
+
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        样式的结构
+        
+  
+  <span class="md-ellipsis">
+    样式的结构
+  </span>
+  
+
       </a>
       
         
@@ -658,197 +760,265 @@
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../locale-files-strucure/" class="md-nav__link">
-        本地化文件的结构
+        
+  
+  <span class="md-ellipsis">
+    本地化文件的结构
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../rendering-elements/" class="md-nav__link">
-        渲染元素
+        
+  
+  <span class="md-ellipsis">
+    渲染元素
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../style-behavior/" class="md-nav__link">
-        样式的行为
+        
+  
+  <span class="md-ellipsis">
+    样式的行为
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_10" type="checkbox" id="__nav_3_10" >
-      
-      
-      
         
-          
         
-          
         
-          
         
-          
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_10" >
         
-          
+          <label class="md-nav__link" for="__nav_3_10" id="__nav_3_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Appendix
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
         
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_3_10">
-          Appendix
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Appendix" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_10">
-          <span class="md-nav__icon md-icon"></span>
-          Appendix
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_10">
+            <span class="md-nav__icon md-icon"></span>
+            Appendix
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../appendix/appendix1-categories/" class="md-nav__link">
-        附录 I 学科分类
+        
+  
+  <span class="md-ellipsis">
+    附录 I 学科分类
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../appendix/appendix2-terms/" class="md-nav__link">
-        附录 II 术语
+        
+  
+  <span class="md-ellipsis">
+    附录 II 术语
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../appendix/appendix3-types/" class="md-nav__link">
-        附录 III 文献类型
+        
+  
+  <span class="md-ellipsis">
+    附录 III 文献类型
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../appendix/appendix4-variables/" class="md-nav__link">
-        附录 IV 变量
+        
+  
+  <span class="md-ellipsis">
+    附录 IV 变量
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../appendix/appendix5-page-range-formats/" class="md-nav__link">
-        附录 V 页码范围格式
+        
+  
+  <span class="md-ellipsis">
+    附录 V 页码范围格式
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
   
     <li class="md-nav__item">
       <a href="../appendix/appendix6-links/" class="md-nav__link">
-        附录 VI 链接
+        
+  
+  <span class="md-ellipsis">
+    附录 VI 链接
+  </span>
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
   
   
   
     <li class="md-nav__item">
       <a href="../../translating-locale-files/" class="md-nav__link">
-        翻译 CSL
+        
+  
+  <span class="md-ellipsis">
+    翻译 CSL
+  </span>
+  
+
       </a>
     </li>
   
@@ -856,14 +1026,18 @@
     
       
       
-      
-
   
   
   
     <li class="md-nav__item">
       <a href="../../xml-basic/" class="md-nav__link">
-        XML 基础
+        
+  
+  <span class="md-ellipsis">
+    XML 基础
+  </span>
+  
+
       </a>
     </li>
   
@@ -871,14 +1045,18 @@
     
       
       
-      
-
   
   
   
     <li class="md-nav__item">
       <a href="https://github.com/zotero-cn/styles" class="md-nav__link">
-        中文用样式文件仓库
+        
+  
+  <span class="md-ellipsis">
+    中文用样式文件仓库
+  </span>
+  
+
       </a>
     </li>
   
@@ -1062,10 +1240,8 @@
                 
                   
 
-  <a href="https://github.com/zotero-cn/csl-doc-chinese/edit/master/docs/specification/styles-structure.md" title="编辑此页" class="md-content__button md-icon">
-    
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
-  </a>
+  
+  
 
 
 <h1 id="样式的结构">样式的结构<a class="headerlink" href="#样式的结构" title="Permanent link">&para;</a></h1>
@@ -1078,7 +1254,7 @@
 <dl>
 <dt><code>class</code></dt>
 <dd>
-<p>🏳️ Default: <em>none</em>  —  决定样式的 <a href="../../primer/citation-formats.md#引文格式">引文格式</a> 是 in-text 类型（值 <code>in-text</code>） 或者 note 类型（值 <code>note</code>）。</p>
+<p>🏳️ Default: <em>none</em>  —  决定样式的 <a href="../../primer/citation-formats/#引文格式">引文格式</a> 是 in-text 类型（值 <code>in-text</code>） 或者 note 类型（值 <code>note</code>）。</p>
 <div class="admonition note">
 <p class="admonition-title">译者注</p>
 <p>in-text 表示引文在文字中，note 表示引文不在文字中，可能是脚注等。</p>
@@ -1105,7 +1281,7 @@
 <p>在这些属性中，<a href="../file-types/#从属样式">从属样式</a> 中，只有 <code>version</code> 是必须的， <code>default-locale</code> 属性可以设置用来代替的默认的本地化文件 。其他的属性是可以忽略的。</p>
 <p>下面是一个 <a href="../file-types/#独立样式">独立样式</a> 的 <code>cs:style</code> 示例，第一行是 XML 声明：</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><a href="#__codelineno-0-1"><span class="linenos" data-linenos="1 "></span></a><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2"></a><a href="#__codelineno-0-2"><span class="linenos" data-linenos="2 "></span></a><span class="nt">&lt;style</span> <span class="na">xmlns=</span><span class="s">&quot;http://purl.org/net/xbiblio/csl&quot;</span> <span class="na">version=</span><span class="s">&quot;1.0&quot;</span> <span class="na">class=</span><span class="s">&quot;in-text&quot;</span> <span class="na">default-locale=</span><span class="s">&quot;fr-FR&quot;</span><span class="nt">/&gt;</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a><a href="#__codelineno-0-2"><span class="linenos" data-linenos="2 "></span></a><span class="nt">&lt;style</span><span class="w"> </span><span class="na">xmlns=</span><span class="s">&quot;http://purl.org/net/xbiblio/csl&quot;</span><span class="w"> </span><span class="na">version=</span><span class="s">&quot;1.0&quot;</span><span class="w"> </span><span class="na">class=</span><span class="s">&quot;in-text&quot;</span><span class="w"> </span><span class="na">default-locale=</span><span class="s">&quot;fr-FR&quot;</span><span class="nt">/&gt;</span>
 </code></pre></div>
 <h2 id="csstyle-的子元素"><code>cs:style</code> 的子元素<a class="headerlink" href="#csstyle-的子元素" title="Permanent link">&para;</a></h2>
 <p>在 <a href="../file-types/#独立样式">独立样式</a> 中，<code>cs:style</code> 有以下子元素：</p>
@@ -1229,31 +1405,31 @@
 <p>在从属格式中，当 <code>cs:link</code> 中的 <code>href</code> 为其父格式的 URI 时，<code>rel</code> 属性必须设置为 <code>"independent-parent"</code>。此外，从属格式的 <code>ref</code> 不能设置为 <code>template</code>，这在独立格式中才能使用。</p>
 <p>下面是一个独立样式 <code>cs:info</code> 的例子：</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><a href="#__codelineno-1-1"><span class="linenos" data-linenos=" 1 "></span></a><span class="nt">&lt;info&gt;</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2"></a><a href="#__codelineno-1-2"><span class="linenos" data-linenos=" 2 "></span></a>  <span class="nt">&lt;title&gt;</span>Style Title<span class="nt">&lt;/title&gt;</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3"></a><a href="#__codelineno-1-3"><span class="linenos" data-linenos=" 3 "></span></a>  <span class="nt">&lt;id&gt;</span>http://www.zotero.org/styles/style-title<span class="nt">&lt;/id&gt;</span>
-<a id="__codelineno-1-4" name="__codelineno-1-4"></a><a href="#__codelineno-1-4"><span class="linenos" data-linenos=" 4 "></span></a>  <span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;http://www.zotero.org/styles/style-title&quot;</span> <span class="na">rel=</span><span class="s">&quot;self&quot;</span><span class="nt">/&gt;</span>
-<a id="__codelineno-1-5" name="__codelineno-1-5"></a><a href="#__codelineno-1-5"><span class="linenos" data-linenos=" 5 "></span></a>  <span class="nt">&lt;author&gt;</span>
-<a id="__codelineno-1-6" name="__codelineno-1-6"></a><a href="#__codelineno-1-6"><span class="linenos" data-linenos=" 6 "></span></a>    <span class="nt">&lt;name&gt;</span>Author Name<span class="nt">&lt;/name&gt;</span>
-<a id="__codelineno-1-7" name="__codelineno-1-7"></a><a href="#__codelineno-1-7"><span class="linenos" data-linenos=" 7 "></span></a>    <span class="nt">&lt;email&gt;</span>name@domain.com<span class="nt">&lt;/email&gt;</span>
-<a id="__codelineno-1-8" name="__codelineno-1-8"></a><a href="#__codelineno-1-8"><span class="linenos" data-linenos=" 8 "></span></a>    <span class="nt">&lt;uri&gt;</span>http://www.domain.com/name<span class="nt">&lt;/uri&gt;</span>
-<a id="__codelineno-1-9" name="__codelineno-1-9"></a><a href="#__codelineno-1-9"><span class="linenos" data-linenos=" 9 "></span></a>  <span class="nt">&lt;/author&gt;</span>
-<a id="__codelineno-1-10" name="__codelineno-1-10"></a><a href="#__codelineno-1-10"><span class="linenos" data-linenos="10 "></span></a>  <span class="nt">&lt;category</span> <span class="na">citation-format=</span><span class="s">&quot;author-date&quot;</span><span class="nt">/&gt;</span>
-<a id="__codelineno-1-11" name="__codelineno-1-11"></a><a href="#__codelineno-1-11"><span class="linenos" data-linenos="11 "></span></a>  <span class="nt">&lt;category</span> <span class="na">field=</span><span class="s">&quot;zoology&quot;</span><span class="nt">/&gt;</span>
-<a id="__codelineno-1-12" name="__codelineno-1-12"></a><a href="#__codelineno-1-12"><span class="linenos" data-linenos="12 "></span></a>  <span class="nt">&lt;updated&gt;</span>2008-10-29T21:01:24+00:00<span class="nt">&lt;/updated&gt;</span>
-<a id="__codelineno-1-13" name="__codelineno-1-13"></a><a href="#__codelineno-1-13"><span class="linenos" data-linenos="13 "></span></a>  <span class="nt">&lt;rights</span> <span class="na">license=</span><span class="s">&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;</span><span class="nt">&gt;</span>This work
-<a id="__codelineno-1-14" name="__codelineno-1-14"></a><a href="#__codelineno-1-14"><span class="linenos" data-linenos="14 "></span></a>  is licensed under a Creative Commons Attribution-Share Alike 3.0 Unported
-<a id="__codelineno-1-15" name="__codelineno-1-15"></a><a href="#__codelineno-1-15"><span class="linenos" data-linenos="15 "></span></a>  License<span class="nt">&lt;/rights&gt;</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2"></a><a href="#__codelineno-1-2"><span class="linenos" data-linenos=" 2 "></span></a><span class="w">  </span><span class="nt">&lt;title&gt;</span>Style<span class="w"> </span>Title<span class="nt">&lt;/title&gt;</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3"></a><a href="#__codelineno-1-3"><span class="linenos" data-linenos=" 3 "></span></a><span class="w">  </span><span class="nt">&lt;id&gt;</span>http://www.zotero.org/styles/style-title<span class="nt">&lt;/id&gt;</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4"></a><a href="#__codelineno-1-4"><span class="linenos" data-linenos=" 4 "></span></a><span class="w">  </span><span class="nt">&lt;link</span><span class="w"> </span><span class="na">href=</span><span class="s">&quot;http://www.zotero.org/styles/style-title&quot;</span><span class="w"> </span><span class="na">rel=</span><span class="s">&quot;self&quot;</span><span class="nt">/&gt;</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5"></a><a href="#__codelineno-1-5"><span class="linenos" data-linenos=" 5 "></span></a><span class="w">  </span><span class="nt">&lt;author&gt;</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6"></a><a href="#__codelineno-1-6"><span class="linenos" data-linenos=" 6 "></span></a><span class="w">    </span><span class="nt">&lt;name&gt;</span>Author<span class="w"> </span>Name<span class="nt">&lt;/name&gt;</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7"></a><a href="#__codelineno-1-7"><span class="linenos" data-linenos=" 7 "></span></a><span class="w">    </span><span class="nt">&lt;email&gt;</span>name@domain.com<span class="nt">&lt;/email&gt;</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8"></a><a href="#__codelineno-1-8"><span class="linenos" data-linenos=" 8 "></span></a><span class="w">    </span><span class="nt">&lt;uri&gt;</span>http://www.domain.com/name<span class="nt">&lt;/uri&gt;</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9"></a><a href="#__codelineno-1-9"><span class="linenos" data-linenos=" 9 "></span></a><span class="w">  </span><span class="nt">&lt;/author&gt;</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10"></a><a href="#__codelineno-1-10"><span class="linenos" data-linenos="10 "></span></a><span class="w">  </span><span class="nt">&lt;category</span><span class="w"> </span><span class="na">citation-format=</span><span class="s">&quot;author-date&quot;</span><span class="nt">/&gt;</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11"></a><a href="#__codelineno-1-11"><span class="linenos" data-linenos="11 "></span></a><span class="w">  </span><span class="nt">&lt;category</span><span class="w"> </span><span class="na">field=</span><span class="s">&quot;zoology&quot;</span><span class="nt">/&gt;</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12"></a><a href="#__codelineno-1-12"><span class="linenos" data-linenos="12 "></span></a><span class="w">  </span><span class="nt">&lt;updated&gt;</span>2008-10-29T21:01:24+00:00<span class="nt">&lt;/updated&gt;</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13"></a><a href="#__codelineno-1-13"><span class="linenos" data-linenos="13 "></span></a><span class="w">  </span><span class="nt">&lt;rights</span><span class="w"> </span><span class="na">license=</span><span class="s">&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;</span><span class="nt">&gt;</span>This<span class="w"> </span>work
+<a id="__codelineno-1-14" name="__codelineno-1-14"></a><a href="#__codelineno-1-14"><span class="linenos" data-linenos="14 "></span></a><span class="w">  </span>is<span class="w"> </span>licensed<span class="w"> </span>under<span class="w"> </span>a<span class="w"> </span>Creative<span class="w"> </span>Commons<span class="w"> </span>Attribution-Share<span class="w"> </span>Alike<span class="w"> </span>3.0<span class="w"> </span>Unported
+<a id="__codelineno-1-15" name="__codelineno-1-15"></a><a href="#__codelineno-1-15"><span class="linenos" data-linenos="15 "></span></a><span class="w">  </span>License<span class="nt">&lt;/rights&gt;</span>
 <a id="__codelineno-1-16" name="__codelineno-1-16"></a><a href="#__codelineno-1-16"><span class="linenos" data-linenos="16 "></span></a><span class="nt">&lt;/info&gt;</span>
 </code></pre></div>
 <h3 id="citation">Citation<a class="headerlink" href="#citation" title="Permanent link">&para;</a></h3>
 <p><code>cs:citation</code> 元素描述了引文的格式，其中引文可以是一条或者多条。引文的格式可能是 in-text citations（即文字中的引文）和 notes（注记）。in-text citations 包括 (<code>"author"，例: [Doe]</code>，<code>"author-date"，例: [Doe 1999]</code>，<code>"label"，例: [doe99]</code>，<code>"author"，例: [Doe]</code> 或者 <code>"number"，例:[1]</code> ) 。这要求 <code>cs:layout</code> 子元素来描述什么样的数据，以及怎么被引用（见 <a href="../rendering-elements/#Layout">Layout</a> ）。在 <code>cs:layout</code> 之前可能会有 <code>cs:sort</code> 元素，用来描述引文的排序（见 <a href="../%E6%8E%92%E5%BA%8F">排序</a>）。此外，<code>cs:style</code> 可能携带任意的 <a href="../style-behavior/#引文选项">引文选项</a> 和 <a href="../style-behavior/#可继承的名称选项">可继承的名称选项</a> 中的属性。下面是一个 <code>cs:citation</code> 的例子：</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a><a href="#__codelineno-2-1"><span class="linenos" data-linenos="1 "></span></a><span class="nt">&lt;citation&gt;</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2"></a><a href="#__codelineno-2-2"><span class="linenos" data-linenos="2 "></span></a>  <span class="nt">&lt;sort&gt;</span>
-<a id="__codelineno-2-3" name="__codelineno-2-3"></a><a href="#__codelineno-2-3"><span class="linenos" data-linenos="3 "></span></a>    <span class="nt">&lt;key</span> <span class="na">variable=</span><span class="s">&quot;citation-number&quot;</span><span class="nt">/&gt;</span>
-<a id="__codelineno-2-4" name="__codelineno-2-4"></a><a href="#__codelineno-2-4"><span class="linenos" data-linenos="4 "></span></a>  <span class="nt">&lt;/sort&gt;</span>
-<a id="__codelineno-2-5" name="__codelineno-2-5"></a><a href="#__codelineno-2-5"><span class="linenos" data-linenos="5 "></span></a>  <span class="nt">&lt;layout&gt;</span>
-<a id="__codelineno-2-6" name="__codelineno-2-6"></a><a href="#__codelineno-2-6"><span class="linenos" data-linenos="6 "></span></a>    <span class="nt">&lt;text</span> <span class="na">variable=</span><span class="s">&quot;citation-number&quot;</span><span class="nt">/&gt;</span>
-<a id="__codelineno-2-7" name="__codelineno-2-7"></a><a href="#__codelineno-2-7"><span class="linenos" data-linenos="7 "></span></a>  <span class="nt">&lt;/layout&gt;</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2"></a><a href="#__codelineno-2-2"><span class="linenos" data-linenos="2 "></span></a><span class="w">  </span><span class="nt">&lt;sort&gt;</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3"></a><a href="#__codelineno-2-3"><span class="linenos" data-linenos="3 "></span></a><span class="w">    </span><span class="nt">&lt;key</span><span class="w"> </span><span class="na">variable=</span><span class="s">&quot;citation-number&quot;</span><span class="nt">/&gt;</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4"></a><a href="#__codelineno-2-4"><span class="linenos" data-linenos="4 "></span></a><span class="w">  </span><span class="nt">&lt;/sort&gt;</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5"></a><a href="#__codelineno-2-5"><span class="linenos" data-linenos="5 "></span></a><span class="w">  </span><span class="nt">&lt;layout&gt;</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6"></a><a href="#__codelineno-2-6"><span class="linenos" data-linenos="6 "></span></a><span class="w">    </span><span class="nt">&lt;text</span><span class="w"> </span><span class="na">variable=</span><span class="s">&quot;citation-number&quot;</span><span class="nt">/&gt;</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7"></a><a href="#__codelineno-2-7"><span class="linenos" data-linenos="7 "></span></a><span class="w">  </span><span class="nt">&lt;/layout&gt;</span>
 <a id="__codelineno-2-8" name="__codelineno-2-8"></a><a href="#__codelineno-2-8"><span class="linenos" data-linenos="8 "></span></a><span class="nt">&lt;/citation&gt;</span>
 </code></pre></div>
 <p><strong>对 CSL 处理器开发者的一个建议</strong></p>
@@ -1261,15 +1437,15 @@
 <h3 id="bioliography">Bioliography<a class="headerlink" href="#bioliography" title="Permanent link">&para;</a></h3>
 <p><code>cs:bioliography</code> 元素描述了参考文献条目的格式。同 <code>cs:citation</code> 相同，其子元素 <code>cs:layout</code> 用来描述每个条目的格式，<code>cs:sort</code> 元素用来描述条目的排序。此外，<code>cs:bibliography</code> 可能携带任意的 <a href="./#参考文献目录选项">参考文献目录选项</a> 和 <a href="./#可继承的名称选项">可继承名称选项</a> 中的属性。下面是一个 <code>cs:bioliography</code> 的例子：</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a><a href="#__codelineno-3-1"><span class="linenos" data-linenos=" 1 "></span></a><span class="nt">&lt;bibliography&gt;</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2"></a><a href="#__codelineno-3-2"><span class="linenos" data-linenos=" 2 "></span></a>  <span class="nt">&lt;sort&gt;</span>
-<a id="__codelineno-3-3" name="__codelineno-3-3"></a><a href="#__codelineno-3-3"><span class="linenos" data-linenos=" 3 "></span></a>    <span class="nt">&lt;key</span> <span class="na">macro=</span><span class="s">&quot;author&quot;</span><span class="nt">/&gt;</span>
-<a id="__codelineno-3-4" name="__codelineno-3-4"></a><a href="#__codelineno-3-4"><span class="linenos" data-linenos=" 4 "></span></a>  <span class="nt">&lt;/sort&gt;</span>
-<a id="__codelineno-3-5" name="__codelineno-3-5"></a><a href="#__codelineno-3-5"><span class="linenos" data-linenos=" 5 "></span></a>  <span class="nt">&lt;layout&gt;</span>
-<a id="__codelineno-3-6" name="__codelineno-3-6"></a><a href="#__codelineno-3-6"><span class="linenos" data-linenos=" 6 "></span></a>    <span class="nt">&lt;group</span> <span class="na">delimiter=</span><span class="s">&quot;. &quot;</span><span class="nt">&gt;</span>
-<a id="__codelineno-3-7" name="__codelineno-3-7"></a><a href="#__codelineno-3-7"><span class="linenos" data-linenos=" 7 "></span></a>      <span class="nt">&lt;text</span> <span class="na">macro=</span><span class="s">&quot;author&quot;</span><span class="nt">/&gt;</span>
-<a id="__codelineno-3-8" name="__codelineno-3-8"></a><a href="#__codelineno-3-8"><span class="linenos" data-linenos=" 8 "></span></a>      <span class="nt">&lt;text</span> <span class="na">variable=</span><span class="s">&quot;title&quot;</span><span class="nt">/&gt;</span>
-<a id="__codelineno-3-9" name="__codelineno-3-9"></a><a href="#__codelineno-3-9"><span class="linenos" data-linenos=" 9 "></span></a>    <span class="nt">&lt;/group&gt;</span>
-<a id="__codelineno-3-10" name="__codelineno-3-10"></a><a href="#__codelineno-3-10"><span class="linenos" data-linenos="10 "></span></a>  <span class="nt">&lt;/layout&gt;</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2"></a><a href="#__codelineno-3-2"><span class="linenos" data-linenos=" 2 "></span></a><span class="w">  </span><span class="nt">&lt;sort&gt;</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3"></a><a href="#__codelineno-3-3"><span class="linenos" data-linenos=" 3 "></span></a><span class="w">    </span><span class="nt">&lt;key</span><span class="w"> </span><span class="na">macro=</span><span class="s">&quot;author&quot;</span><span class="nt">/&gt;</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4"></a><a href="#__codelineno-3-4"><span class="linenos" data-linenos=" 4 "></span></a><span class="w">  </span><span class="nt">&lt;/sort&gt;</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5"></a><a href="#__codelineno-3-5"><span class="linenos" data-linenos=" 5 "></span></a><span class="w">  </span><span class="nt">&lt;layout&gt;</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6"></a><a href="#__codelineno-3-6"><span class="linenos" data-linenos=" 6 "></span></a><span class="w">    </span><span class="nt">&lt;group</span><span class="w"> </span><span class="na">delimiter=</span><span class="s">&quot;. &quot;</span><span class="nt">&gt;</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7"></a><a href="#__codelineno-3-7"><span class="linenos" data-linenos=" 7 "></span></a><span class="w">      </span><span class="nt">&lt;text</span><span class="w"> </span><span class="na">macro=</span><span class="s">&quot;author&quot;</span><span class="nt">/&gt;</span>
+<a id="__codelineno-3-8" name="__codelineno-3-8"></a><a href="#__codelineno-3-8"><span class="linenos" data-linenos=" 8 "></span></a><span class="w">      </span><span class="nt">&lt;text</span><span class="w"> </span><span class="na">variable=</span><span class="s">&quot;title&quot;</span><span class="nt">/&gt;</span>
+<a id="__codelineno-3-9" name="__codelineno-3-9"></a><a href="#__codelineno-3-9"><span class="linenos" data-linenos=" 9 "></span></a><span class="w">    </span><span class="nt">&lt;/group&gt;</span>
+<a id="__codelineno-3-10" name="__codelineno-3-10"></a><a href="#__codelineno-3-10"><span class="linenos" data-linenos="10 "></span></a><span class="w">  </span><span class="nt">&lt;/layout&gt;</span>
 <a id="__codelineno-3-11" name="__codelineno-3-11"></a><a href="#__codelineno-3-11"><span class="linenos" data-linenos="11 "></span></a><span class="nt">&lt;/bibliography&gt;</span>
 </code></pre></div>
 <h3 id="macro">Macro<a class="headerlink" href="#macro" title="Permanent link">&para;</a></h3>
@@ -1278,21 +1454,21 @@
 <p>使用宏可以提高样式的可读性，紧凑性以及可维护性。通过过宏调用来保持 <code>cs:citation</code> 元素和 <code>cs:bioliography</code> 元素的内容紧凑通常是推荐的做法。为了在其他样式中方便的重复使用，宏名字建议使用通用的名字。</p>
 <p>下面是一个实例：引文中包括项目题目，并当条目为 <code>"book"</code> 时，设置字体为 <code>italic</code>。</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><a href="#__codelineno-4-1"><span class="linenos" data-linenos=" 1 "></span></a><span class="nt">&lt;style&gt;</span>
-<a id="__codelineno-4-2" name="__codelineno-4-2"></a><a href="#__codelineno-4-2"><span class="linenos" data-linenos=" 2 "></span></a>  <span class="nt">&lt;macro</span> <span class="na">name=</span><span class="s">&quot;title&quot;</span><span class="nt">&gt;</span>
-<a id="__codelineno-4-3" name="__codelineno-4-3"></a><a href="#__codelineno-4-3"><span class="linenos" data-linenos=" 3 "></span></a>    <span class="nt">&lt;choose&gt;</span>
-<a id="__codelineno-4-4" name="__codelineno-4-4"></a><a href="#__codelineno-4-4"><span class="linenos" data-linenos=" 4 "></span></a>      <span class="nt">&lt;if</span> <span class="na">type=</span><span class="s">&quot;book&quot;</span><span class="nt">&gt;</span>
-<a id="__codelineno-4-5" name="__codelineno-4-5"></a><a href="#__codelineno-4-5"><span class="linenos" data-linenos=" 5 "></span></a>        <span class="nt">&lt;text</span> <span class="na">variable=</span><span class="s">&quot;title&quot;</span> <span class="na">font-style=</span><span class="s">&quot;italic&quot;</span><span class="nt">/&gt;</span>
-<a id="__codelineno-4-6" name="__codelineno-4-6"></a><a href="#__codelineno-4-6"><span class="linenos" data-linenos=" 6 "></span></a>      <span class="nt">&lt;/if&gt;</span>
-<a id="__codelineno-4-7" name="__codelineno-4-7"></a><a href="#__codelineno-4-7"><span class="linenos" data-linenos=" 7 "></span></a>      <span class="nt">&lt;else&gt;</span>
-<a id="__codelineno-4-8" name="__codelineno-4-8"></a><a href="#__codelineno-4-8"><span class="linenos" data-linenos=" 8 "></span></a>        <span class="nt">&lt;text</span> <span class="na">variable=</span><span class="s">&quot;title&quot;</span><span class="nt">/&gt;</span>
-<a id="__codelineno-4-9" name="__codelineno-4-9"></a><a href="#__codelineno-4-9"><span class="linenos" data-linenos=" 9 "></span></a>      <span class="nt">&lt;/else&gt;</span>
-<a id="__codelineno-4-10" name="__codelineno-4-10"></a><a href="#__codelineno-4-10"><span class="linenos" data-linenos="10 "></span></a>    <span class="nt">&lt;/choose&gt;</span>
-<a id="__codelineno-4-11" name="__codelineno-4-11"></a><a href="#__codelineno-4-11"><span class="linenos" data-linenos="11 "></span></a>  <span class="nt">&lt;/macro&gt;</span>
-<a id="__codelineno-4-12" name="__codelineno-4-12"></a><a href="#__codelineno-4-12"><span class="linenos" data-linenos="12 "></span></a>  <span class="nt">&lt;citation&gt;</span>
-<a id="__codelineno-4-13" name="__codelineno-4-13"></a><a href="#__codelineno-4-13"><span class="linenos" data-linenos="13 "></span></a>    <span class="nt">&lt;layout&gt;</span>
-<a id="__codelineno-4-14" name="__codelineno-4-14"></a><a href="#__codelineno-4-14"><span class="linenos" data-linenos="14 "></span></a>      <span class="nt">&lt;text</span> <span class="na">macro=</span><span class="s">&quot;title&quot;</span><span class="nt">/&gt;</span>
-<a id="__codelineno-4-15" name="__codelineno-4-15"></a><a href="#__codelineno-4-15"><span class="linenos" data-linenos="15 "></span></a>    <span class="nt">&lt;/layout&gt;</span>
-<a id="__codelineno-4-16" name="__codelineno-4-16"></a><a href="#__codelineno-4-16"><span class="linenos" data-linenos="16 "></span></a>  <span class="nt">&lt;/citation&gt;</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2"></a><a href="#__codelineno-4-2"><span class="linenos" data-linenos=" 2 "></span></a><span class="w">  </span><span class="nt">&lt;macro</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;title&quot;</span><span class="nt">&gt;</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3"></a><a href="#__codelineno-4-3"><span class="linenos" data-linenos=" 3 "></span></a><span class="w">    </span><span class="nt">&lt;choose&gt;</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4"></a><a href="#__codelineno-4-4"><span class="linenos" data-linenos=" 4 "></span></a><span class="w">      </span><span class="nt">&lt;if</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;book&quot;</span><span class="nt">&gt;</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5"></a><a href="#__codelineno-4-5"><span class="linenos" data-linenos=" 5 "></span></a><span class="w">        </span><span class="nt">&lt;text</span><span class="w"> </span><span class="na">variable=</span><span class="s">&quot;title&quot;</span><span class="w"> </span><span class="na">font-style=</span><span class="s">&quot;italic&quot;</span><span class="nt">/&gt;</span>
+<a id="__codelineno-4-6" name="__codelineno-4-6"></a><a href="#__codelineno-4-6"><span class="linenos" data-linenos=" 6 "></span></a><span class="w">      </span><span class="nt">&lt;/if&gt;</span>
+<a id="__codelineno-4-7" name="__codelineno-4-7"></a><a href="#__codelineno-4-7"><span class="linenos" data-linenos=" 7 "></span></a><span class="w">      </span><span class="nt">&lt;else&gt;</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8"></a><a href="#__codelineno-4-8"><span class="linenos" data-linenos=" 8 "></span></a><span class="w">        </span><span class="nt">&lt;text</span><span class="w"> </span><span class="na">variable=</span><span class="s">&quot;title&quot;</span><span class="nt">/&gt;</span>
+<a id="__codelineno-4-9" name="__codelineno-4-9"></a><a href="#__codelineno-4-9"><span class="linenos" data-linenos=" 9 "></span></a><span class="w">      </span><span class="nt">&lt;/else&gt;</span>
+<a id="__codelineno-4-10" name="__codelineno-4-10"></a><a href="#__codelineno-4-10"><span class="linenos" data-linenos="10 "></span></a><span class="w">    </span><span class="nt">&lt;/choose&gt;</span>
+<a id="__codelineno-4-11" name="__codelineno-4-11"></a><a href="#__codelineno-4-11"><span class="linenos" data-linenos="11 "></span></a><span class="w">  </span><span class="nt">&lt;/macro&gt;</span>
+<a id="__codelineno-4-12" name="__codelineno-4-12"></a><a href="#__codelineno-4-12"><span class="linenos" data-linenos="12 "></span></a><span class="w">  </span><span class="nt">&lt;citation&gt;</span>
+<a id="__codelineno-4-13" name="__codelineno-4-13"></a><a href="#__codelineno-4-13"><span class="linenos" data-linenos="13 "></span></a><span class="w">    </span><span class="nt">&lt;layout&gt;</span>
+<a id="__codelineno-4-14" name="__codelineno-4-14"></a><a href="#__codelineno-4-14"><span class="linenos" data-linenos="14 "></span></a><span class="w">      </span><span class="nt">&lt;text</span><span class="w"> </span><span class="na">macro=</span><span class="s">&quot;title&quot;</span><span class="nt">/&gt;</span>
+<a id="__codelineno-4-15" name="__codelineno-4-15"></a><a href="#__codelineno-4-15"><span class="linenos" data-linenos="15 "></span></a><span class="w">    </span><span class="nt">&lt;/layout&gt;</span>
+<a id="__codelineno-4-16" name="__codelineno-4-16"></a><a href="#__codelineno-4-16"><span class="linenos" data-linenos="16 "></span></a><span class="w">  </span><span class="nt">&lt;/citation&gt;</span>
 <a id="__codelineno-4-17" name="__codelineno-4-17"></a><a href="#__codelineno-4-17"><span class="linenos" data-linenos="17 "></span></a><span class="nt">&lt;/style&gt;</span>
 </code></pre></div>
 <h3 id="locale">Locale<a class="headerlink" href="#locale" title="Permanent link">&para;</a></h3>
@@ -1301,14 +1477,14 @@
 <p>对于 <code>cs:locale</code> 元素的详细使用，另见 <a href="../Terms%28%E6%9C%AF%E8%AF%AD">术语</a>)、<a href="../%E6%9C%AC%E5%9C%B0%E5%8C%96%E6%97%A5%E6%9C%9F%E6%A0%BC%E5%BC%8F">本地化日期格式</a> 和 <a href="../b%E6%9C%AC%E5%9C%B0%E5%8C%96%E9%80%89%E9%A1%B9">本地化选项</a>。</p>
 <p>下面是一个 <code>cs:locale</code> 元素的例子：</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1"></a><a href="#__codelineno-5-1"><span class="linenos" data-linenos=" 1 "></span></a><span class="nt">&lt;style&gt;</span>
-<a id="__codelineno-5-2" name="__codelineno-5-2"></a><a href="#__codelineno-5-2"><span class="linenos" data-linenos=" 2 "></span></a>  <span class="nt">&lt;locale</span> <span class="na">xml:lang=</span><span class="s">&quot;en&quot;</span><span class="nt">&gt;</span>
-<a id="__codelineno-5-3" name="__codelineno-5-3"></a><a href="#__codelineno-5-3"><span class="linenos" data-linenos=" 3 "></span></a>    <span class="nt">&lt;terms&gt;</span>
-<a id="__codelineno-5-4" name="__codelineno-5-4"></a><a href="#__codelineno-5-4"><span class="linenos" data-linenos=" 4 "></span></a>      <span class="nt">&lt;term</span> <span class="na">name=</span><span class="s">&quot;editortranslator&quot;</span> <span class="na">form=</span><span class="s">&quot;short&quot;</span><span class="nt">&gt;</span>
-<a id="__codelineno-5-5" name="__codelineno-5-5"></a><a href="#__codelineno-5-5"><span class="linenos" data-linenos=" 5 "></span></a>        <span class="nt">&lt;single&gt;</span>ed. <span class="ni">&amp;amp;</span> trans.<span class="nt">&lt;/single&gt;</span>
-<a id="__codelineno-5-6" name="__codelineno-5-6"></a><a href="#__codelineno-5-6"><span class="linenos" data-linenos=" 6 "></span></a>        <span class="nt">&lt;multiple&gt;</span>eds. <span class="ni">&amp;amp;</span> trans.<span class="nt">&lt;/multiple&gt;</span>
-<a id="__codelineno-5-7" name="__codelineno-5-7"></a><a href="#__codelineno-5-7"><span class="linenos" data-linenos=" 7 "></span></a>      <span class="nt">&lt;/term&gt;</span>
-<a id="__codelineno-5-8" name="__codelineno-5-8"></a><a href="#__codelineno-5-8"><span class="linenos" data-linenos=" 8 "></span></a>    <span class="nt">&lt;/terms&gt;</span>
-<a id="__codelineno-5-9" name="__codelineno-5-9"></a><a href="#__codelineno-5-9"><span class="linenos" data-linenos=" 9 "></span></a>  <span class="nt">&lt;/locale&gt;</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2"></a><a href="#__codelineno-5-2"><span class="linenos" data-linenos=" 2 "></span></a><span class="w">  </span><span class="nt">&lt;locale</span><span class="w"> </span><span class="na">xml:lang=</span><span class="s">&quot;en&quot;</span><span class="nt">&gt;</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3"></a><a href="#__codelineno-5-3"><span class="linenos" data-linenos=" 3 "></span></a><span class="w">    </span><span class="nt">&lt;terms&gt;</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4"></a><a href="#__codelineno-5-4"><span class="linenos" data-linenos=" 4 "></span></a><span class="w">      </span><span class="nt">&lt;term</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;editortranslator&quot;</span><span class="w"> </span><span class="na">form=</span><span class="s">&quot;short&quot;</span><span class="nt">&gt;</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5"></a><a href="#__codelineno-5-5"><span class="linenos" data-linenos=" 5 "></span></a><span class="w">        </span><span class="nt">&lt;single&gt;</span>ed.<span class="w"> </span><span class="ni">&amp;amp;</span><span class="w"> </span>trans.<span class="nt">&lt;/single&gt;</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6"></a><a href="#__codelineno-5-6"><span class="linenos" data-linenos=" 6 "></span></a><span class="w">        </span><span class="nt">&lt;multiple&gt;</span>eds.<span class="w"> </span><span class="ni">&amp;amp;</span><span class="w"> </span>trans.<span class="nt">&lt;/multiple&gt;</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7"></a><a href="#__codelineno-5-7"><span class="linenos" data-linenos=" 7 "></span></a><span class="w">      </span><span class="nt">&lt;/term&gt;</span>
+<a id="__codelineno-5-8" name="__codelineno-5-8"></a><a href="#__codelineno-5-8"><span class="linenos" data-linenos=" 8 "></span></a><span class="w">    </span><span class="nt">&lt;/terms&gt;</span>
+<a id="__codelineno-5-9" name="__codelineno-5-9"></a><a href="#__codelineno-5-9"><span class="linenos" data-linenos=" 9 "></span></a><span class="w">  </span><span class="nt">&lt;/locale&gt;</span>
 <a id="__codelineno-5-10" name="__codelineno-5-10"></a><a href="#__codelineno-5-10"><span class="linenos" data-linenos="10 "></span></a><span class="nt">&lt;/style&gt;</span>
 </code></pre></div>
 <p><strong>Locale Fallback</strong></p>
@@ -1377,50 +1553,15 @@
           
         </div>
         
-          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
             回到页面顶部
-          </a>
+          </button>
         
       </main>
       
         <footer class="md-footer">
-  
-    
-    <nav class="md-footer__inner md-grid" aria-label="页脚" >
-      
-        
-        <a href="../xml-declaration/" class="md-footer__link md-footer__link--prev" aria-label="上一页: XML 声明" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                上一页
-              </span>
-              XML 声明
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../locale-files-strucure/" class="md-footer__link md-footer__link--next" aria-label="下一页: 本地化文件的结构" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                下一页
-              </span>
-              本地化文件的结构
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -1442,20 +1583,24 @@
   
     
     
+    
+    
       
       
     
     <a href="https://github.com/ZMAlt/CSL-Chinese" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M272 304h-96C78.8 304 0 382.8 0 480c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32 0-97.2-78.8-176-176-176zM48.99 464c7.9-63.1 61.81-112 127.01-112h96c65.16 0 119.1 48.95 127 112H48.99zM224 256c70.69 0 128-57.31 128-128S294.69 0 224 0 96 57.31 96 128c0 70.7 57.3 128 128 128zm0-208c44.11 0 80 35.89 80 80s-35.89 80-80 80-80-35.9-80-80c0-44.11 35.9-80 80-80z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M304 128a80 80 0 1 0-160 0 80 80 0 1 0 160 0zm-208 0a128 128 0 1 1 256 0 128 128 0 1 1-256 0zM49.3 464h349.4c-8.9-63.3-63.3-112-129-112h-91.4c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4c98.5 0 178.3 79.8 178.3 178.3 0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"/></svg>
     </a>
   
+    
+    
     
     
       
       
     
     <a href="https://github.com/zotero-cn/csl-doc-chinese" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
     </a>
   
 </div>
@@ -1469,10 +1614,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.top"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\uff0c\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.top"], "search": "../../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.dff1b7c8.min.js"></script>
       
         <script src="../../assets/js/custom.js"></script>
       
